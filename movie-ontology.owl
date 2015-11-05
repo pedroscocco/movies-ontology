@@ -16,7 +16,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="http://www.ime.usp.br/~pedros/movies-ontology">
-    <Prefix name="" IRI="http://www.ime.usp.br/~renata/FOAF-modified#"/>
+    <Prefix name="" IRI="http://www.ime.usp.br/~pedros/movies-ontology#"/>
     <Prefix name="dc" IRI="http://purl.org/dc/elements/1.1/"/>
     <Prefix name="vs" IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
@@ -25,7 +25,6 @@
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="foaf" IRI="http://xmlns.com/foaf/0.1/"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
-    <Prefix name="renata" IRI="http://www.ime.usp.br/~renata/"/>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="dc:description"/>
         <Literal datatypeIRI="&rdf;PlainLiteral">The Friend of a Friend (FOAF) RDF vocabulary, described using W3C RDF Schema and the Web Ontology Language.</Literal>
@@ -35,256 +34,316 @@
         <Literal datatypeIRI="&rdf;PlainLiteral">Friend of a Friend (FOAF) vocabulary</Literal>
     </Annotation>
     <Declaration>
-        <Class IRI="http://schema.org/CreativeWork"/>
+        <Class IRI="#Actor"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://schema.org/ImageObject"/>
+        <Class IRI="#Agent"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Agent"/>
+        <Class IRI="#Creative_Work"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Document"/>
+        <Class IRI="#Director"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Group"/>
+        <Class IRI="#Franchise"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Image"/>
+        <Class IRI="#Movie"/>
     </Declaration>
     <Declaration>
-        <Class IRI="LabelProperty"/>
+        <Class IRI="#Organization"/>
     </Declaration>
     <Declaration>
-        <Class IRI="OnlineAccount"/>
+        <Class IRI="#Person"/>
     </Declaration>
     <Declaration>
-        <Class IRI="OnlineChatAccount"/>
+        <Class IRI="#Producer"/>
     </Declaration>
     <Declaration>
-        <Class IRI="OnlineEcommerceAccount"/>
+        <Class IRI="#Production_Company"/>
     </Declaration>
     <Declaration>
-        <Class IRI="OnlineGamingAccount"/>
+        <Class IRI="#Screenwriter"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Organization"/>
+        <Class IRI="#Series"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Person"/>
+        <ObjectProperty IRI="#account"/>
     </Declaration>
     <Declaration>
-        <Class IRI="PersonalProfileDocument"/>
+        <ObjectProperty IRI="#accountServiceHomepage"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Project"/>
+        <ObjectProperty IRI="#acted_in"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="rdfs:Class"/>
+        <ObjectProperty IRI="#aimChatID"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing"/>
+        <ObjectProperty IRI="#based_near"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="account"/>
+        <ObjectProperty IRI="#belongs_to"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="accountServiceHomepage"/>
+        <ObjectProperty IRI="#currentProject"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="aimChatID"/>
+        <ObjectProperty IRI="#depiction"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="based_near"/>
+        <ObjectProperty IRI="#depicts"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="currentProject"/>
+        <ObjectProperty IRI="#directed"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="depiction"/>
+        <ObjectProperty IRI="#focus"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="depicts"/>
+        <ObjectProperty IRI="#fundedBy"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="focus"/>
+        <ObjectProperty IRI="#has"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="fundedBy"/>
+        <ObjectProperty IRI="#has_actor"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="holdsAccount"/>
+        <ObjectProperty IRI="#has_director"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="homepage"/>
+        <ObjectProperty IRI="#has_producer"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="icqChatID"/>
+        <ObjectProperty IRI="#has_screenwriter"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="img"/>
+        <ObjectProperty IRI="#holdsAccount"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="interest"/>
+        <ObjectProperty IRI="#homepage"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="isPrimaryTopicOf"/>
+        <ObjectProperty IRI="#icqChatID"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="jabberID"/>
+        <ObjectProperty IRI="#img"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="knows"/>
+        <ObjectProperty IRI="#interest"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="logo"/>
+        <ObjectProperty IRI="#isPrimaryTopicOf"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="made"/>
+        <ObjectProperty IRI="#jabberID"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="maker"/>
+        <ObjectProperty IRI="#knows"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="mbox"/>
+        <ObjectProperty IRI="#logo"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="mbox_sha1sum"/>
+        <ObjectProperty IRI="#made"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="member"/>
+        <ObjectProperty IRI="#maker"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="msnChatID"/>
+        <ObjectProperty IRI="#mbox"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="openid"/>
+        <ObjectProperty IRI="#mbox_sha1sum"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="page"/>
+        <ObjectProperty IRI="#member"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="pastProject"/>
+        <ObjectProperty IRI="#msnChatID"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="phone"/>
+        <ObjectProperty IRI="#openid"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="primaryTopic"/>
+        <ObjectProperty IRI="#page"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="publications"/>
+        <ObjectProperty IRI="#pastProject"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="schoolHomepage"/>
+        <ObjectProperty IRI="#phone"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="theme"/>
+        <ObjectProperty IRI="#primaryTopic"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="thumbnail"/>
+        <ObjectProperty IRI="#produced"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="tipjar"/>
+        <ObjectProperty IRI="#publications"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="topic"/>
+        <ObjectProperty IRI="#schoolHomepage"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="topic_interest"/>
+        <ObjectProperty IRI="#theme"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="weblog"/>
+        <ObjectProperty IRI="#thumbnail"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="workInfoHomepage"/>
+        <ObjectProperty IRI="#tipjar"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="workplaceHomepage"/>
+        <ObjectProperty IRI="#topic"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="yahooChatID"/>
+        <ObjectProperty IRI="#topic_interest"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="accountName"/>
+        <ObjectProperty IRI="#weblog"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="age"/>
+        <ObjectProperty IRI="#workInfoHomepage"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="aimChatID"/>
+        <ObjectProperty IRI="#workplaceHomepage"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="birthday"/>
+        <ObjectProperty IRI="#wrote"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="dnaChecksum"/>
+        <ObjectProperty IRI="#yahooChatID"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="familyName"/>
+        <DataProperty IRI="#accountName"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="family_name"/>
+        <DataProperty IRI="#age"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="firstName"/>
+        <DataProperty IRI="#aimChatID"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="geekcode"/>
+        <DataProperty IRI="#birthday"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="gender"/>
+        <DataProperty IRI="#dnaChecksum"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="givenName"/>
+        <DataProperty IRI="#familyName"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="givenname"/>
+        <DataProperty IRI="#family_name"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="icqChatID"/>
+        <DataProperty IRI="#firstName"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="jabberID"/>
+        <DataProperty IRI="#geekcode"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="lastName"/>
+        <DataProperty IRI="#gender"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="mbox_sha1sum"/>
+        <DataProperty IRI="#givenName"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="msnChatID"/>
+        <DataProperty IRI="#givenname"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="myersBriggs"/>
+        <DataProperty IRI="#icqChatID"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="name"/>
+        <DataProperty IRI="#jabberID"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="nick"/>
+        <DataProperty IRI="#lastName"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="plan"/>
+        <DataProperty IRI="#mbox_sha1sum"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="sha1"/>
+        <DataProperty IRI="#msnChatID"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="skypeID"/>
+        <DataProperty IRI="#myersBriggs"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="status"/>
+        <DataProperty IRI="#name"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="surname"/>
+        <DataProperty IRI="#nick"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="title"/>
+        <DataProperty IRI="#plan"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="yahooChatID"/>
+        <DataProperty IRI="#release_year"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#sha1"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#skypeID"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#status"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#surname"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#title"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#yahooChatID"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Drake_Bell"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Drake_e_Josh"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Marc_Webb"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sam_Raimi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Spider-Man"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Spider-Man_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Spider-Man_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Spider-Man_3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Spider_Man"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#The_Amazing_Spider_Man"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#The_Amazing_Spyder_Man_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#The_Amazing_Spyder_Man_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#The_Amazing_Spyder_Man_3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tobey_Maguire"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty abbreviatedIRI="dc:date"/>
@@ -296,10 +355,10 @@
         <AnnotationProperty abbreviatedIRI="dc:title"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty IRI="membershipClass"/>
+        <AnnotationProperty IRI="#membershipClass"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty IRI="name"/>
+        <AnnotationProperty IRI="#name"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty abbreviatedIRI="vs:term_status"/>
@@ -310,2101 +369,2222 @@
     <Declaration>
         <AnnotationProperty abbreviatedIRI="wot:src_assurance"/>
     </Declaration>
-    <EquivalentClasses>
-        <Class IRI="http://schema.org/CreativeWork"/>
-        <Class IRI="Document"/>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="http://schema.org/ImageObject"/>
-        <Class IRI="Image"/>
-    </EquivalentClasses>
     <SubClassOf>
-        <Class IRI="Group"/>
-        <Class IRI="Agent"/>
+        <Class IRI="#Actor"/>
+        <Class IRI="#Person"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="Image"/>
-        <Class IRI="Document"/>
+        <Class IRI="#Actor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#acted_in"/>
+            <Class IRI="#Movie"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="OnlineAccount"/>
-        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="#Creative_Work"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#name"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="OnlineChatAccount"/>
-        <Class IRI="OnlineAccount"/>
+        <Class IRI="#Director"/>
+        <Class IRI="#Person"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="OnlineEcommerceAccount"/>
-        <Class IRI="OnlineAccount"/>
+        <Class IRI="#Director"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#directed"/>
+            <Class IRI="#Movie"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="OnlineGamingAccount"/>
-        <Class IRI="OnlineAccount"/>
+        <Class IRI="#Franchise"/>
+        <Class IRI="#Creative_Work"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="Organization"/>
-        <Class IRI="Agent"/>
+        <Class IRI="#Franchise"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has"/>
+            <ObjectUnionOf>
+                <Class IRI="#Movie"/>
+                <Class IRI="#Series"/>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="Person"/>
-        <Class IRI="Agent"/>
+        <Class IRI="#Movie"/>
+        <Class IRI="#Creative_Work"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="Person"/>
-        <Class IRI="http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing"/>
+        <Class IRI="#Movie"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_actor"/>
+            <Class IRI="#Actor"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="PersonalProfileDocument"/>
-        <Class IRI="Document"/>
+        <Class IRI="#Movie"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_director"/>
+            <Class IRI="#Director"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Movie"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_producer"/>
+            <Class IRI="#Producer"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Movie"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_screenwriter"/>
+            <Class IRI="#Screenwriter"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Movie"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#maker"/>
+            <Class IRI="#Production_Company"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Movie"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#release_year"/>
+            <Datatype abbreviatedIRI="xsd:int"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Organization"/>
+        <Class IRI="#Agent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Organization"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#name"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Person"/>
+        <Class IRI="#Agent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Person"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#familyName"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Person"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#firstName"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Producer"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Producer"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#produced"/>
+            <Class IRI="#Movie"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Production_Company"/>
+        <Class IRI="#Organization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Production_Company"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has"/>
+            <Class IRI="#Creative_Work"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Screenwriter"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Screenwriter"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#wrote"/>
+            <Class IRI="#Movie"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Series"/>
+        <Class IRI="#Creative_Work"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Series"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has"/>
+            <Class IRI="#Movie"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <DisjointClasses>
-        <Class IRI="Document"/>
-        <Class IRI="Organization"/>
+        <Class IRI="#Organization"/>
+        <Class IRI="#Person"/>
     </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="Document"/>
-        <Class IRI="Project"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="Organization"/>
-        <Class IRI="Person"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="Person"/>
-        <Class IRI="Project"/>
-    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Actor"/>
+        <NamedIndividual IRI="#Drake_Bell"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#Drake_e_Josh"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Director"/>
+        <NamedIndividual IRI="#Marc_Webb"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Director"/>
+        <NamedIndividual IRI="#Sam_Raimi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Series"/>
+        <NamedIndividual IRI="#Spider-Man"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#Spider-Man_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#Spider-Man_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#Spider-Man_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Franchise"/>
+        <NamedIndividual IRI="#Spider_Man"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Series"/>
+        <NamedIndividual IRI="#The_Amazing_Spider_Man"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#The_Amazing_Spyder_Man_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#The_Amazing_Spyder_Man_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#The_Amazing_Spyder_Man_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Actor"/>
+        <NamedIndividual IRI="#Tobey_Maguire"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#acted_in"/>
+        <NamedIndividual IRI="#Drake_Bell"/>
+        <NamedIndividual IRI="#Drake_e_Josh"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#directed"/>
+        <NamedIndividual IRI="#Marc_Webb"/>
+        <NamedIndividual IRI="#The_Amazing_Spyder_Man_2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#directed"/>
+        <NamedIndividual IRI="#Marc_Webb"/>
+        <NamedIndividual IRI="#The_Amazing_Spyder_Man_3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#directed"/>
+        <NamedIndividual IRI="#Marc_Webb"/>
+        <NamedIndividual IRI="#The_Amazing_Spyder_Man_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#directed"/>
+        <NamedIndividual IRI="#Sam_Raimi"/>
+        <NamedIndividual IRI="#Spider-Man_3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#directed"/>
+        <NamedIndividual IRI="#Sam_Raimi"/>
+        <NamedIndividual IRI="#Spider-Man_2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#directed"/>
+        <NamedIndividual IRI="#Sam_Raimi"/>
+        <NamedIndividual IRI="#Spider-Man_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has"/>
+        <NamedIndividual IRI="#Spider-Man"/>
+        <NamedIndividual IRI="#Spider-Man_2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has"/>
+        <NamedIndividual IRI="#Spider-Man"/>
+        <NamedIndividual IRI="#Spider-Man_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has"/>
+        <NamedIndividual IRI="#Spider-Man"/>
+        <NamedIndividual IRI="#Spider-Man_3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has"/>
+        <NamedIndividual IRI="#Spider_Man"/>
+        <NamedIndividual IRI="#Spider_Man"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has"/>
+        <NamedIndividual IRI="#Spider_Man"/>
+        <NamedIndividual IRI="#Spider-Man"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has"/>
+        <NamedIndividual IRI="#Spider_Man"/>
+        <NamedIndividual IRI="#The_Amazing_Spyder_Man_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has"/>
+        <NamedIndividual IRI="#Spider_Man"/>
+        <NamedIndividual IRI="#Spider-Man_2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has"/>
+        <NamedIndividual IRI="#Spider_Man"/>
+        <NamedIndividual IRI="#Spider-Man_3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has"/>
+        <NamedIndividual IRI="#Spider_Man"/>
+        <NamedIndividual IRI="#The_Amazing_Spyder_Man_2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has"/>
+        <NamedIndividual IRI="#Spider_Man"/>
+        <NamedIndividual IRI="#The_Amazing_Spyder_Man_3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has"/>
+        <NamedIndividual IRI="#Spider_Man"/>
+        <NamedIndividual IRI="#Spider-Man_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has"/>
+        <NamedIndividual IRI="#Spider_Man"/>
+        <NamedIndividual IRI="#The_Amazing_Spider_Man"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has"/>
+        <NamedIndividual IRI="#The_Amazing_Spider_Man"/>
+        <NamedIndividual IRI="#The_Amazing_Spyder_Man_3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has"/>
+        <NamedIndividual IRI="#The_Amazing_Spider_Man"/>
+        <NamedIndividual IRI="#The_Amazing_Spyder_Man_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has"/>
+        <NamedIndividual IRI="#The_Amazing_Spider_Man"/>
+        <NamedIndividual IRI="#The_Amazing_Spyder_Man_2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#acted_in"/>
+        <NamedIndividual IRI="#Tobey_Maguire"/>
+        <NamedIndividual IRI="#Spider-Man_2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#acted_in"/>
+        <NamedIndividual IRI="#Tobey_Maguire"/>
+        <NamedIndividual IRI="#Spider-Man_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#acted_in"/>
+        <NamedIndividual IRI="#Tobey_Maguire"/>
+        <NamedIndividual IRI="#Spider-Man_3"/>
+    </ObjectPropertyAssertion>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="aimChatID"/>
-        <ObjectProperty IRI="nick"/>
+        <ObjectProperty IRI="#acted_in"/>
+        <ObjectProperty IRI="#made"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="homepage"/>
-        <ObjectProperty IRI="isPrimaryTopicOf"/>
+        <ObjectProperty IRI="#aimChatID"/>
+        <ObjectProperty IRI="#nick"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="homepage"/>
-        <ObjectProperty IRI="page"/>
+        <ObjectProperty IRI="#directed"/>
+        <ObjectProperty IRI="#made"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="icqChatID"/>
-        <ObjectProperty IRI="nick"/>
+        <ObjectProperty IRI="#has_actor"/>
+        <ObjectProperty IRI="#maker"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="img"/>
-        <ObjectProperty IRI="depiction"/>
+        <ObjectProperty IRI="#has_director"/>
+        <ObjectProperty IRI="#maker"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="isPrimaryTopicOf"/>
-        <ObjectProperty IRI="page"/>
+        <ObjectProperty IRI="#has_producer"/>
+        <ObjectProperty IRI="#maker"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="msnChatID"/>
-        <ObjectProperty IRI="nick"/>
+        <ObjectProperty IRI="#has_screenwriter"/>
+        <ObjectProperty IRI="#maker"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="openid"/>
-        <ObjectProperty IRI="isPrimaryTopicOf"/>
+        <ObjectProperty IRI="#homepage"/>
+        <ObjectProperty IRI="#isPrimaryTopicOf"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="skypeID"/>
-        <ObjectProperty IRI="nick"/>
+        <ObjectProperty IRI="#homepage"/>
+        <ObjectProperty IRI="#page"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="tipjar"/>
-        <ObjectProperty IRI="page"/>
+        <ObjectProperty IRI="#icqChatID"/>
+        <ObjectProperty IRI="#nick"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="weblog"/>
-        <ObjectProperty IRI="page"/>
+        <ObjectProperty IRI="#img"/>
+        <ObjectProperty IRI="#depiction"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="yahooChatID"/>
-        <ObjectProperty IRI="nick"/>
+        <ObjectProperty IRI="#isPrimaryTopicOf"/>
+        <ObjectProperty IRI="#page"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#msnChatID"/>
+        <ObjectProperty IRI="#nick"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#openid"/>
+        <ObjectProperty IRI="#isPrimaryTopicOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#produced"/>
+        <ObjectProperty IRI="#made"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#skypeID"/>
+        <ObjectProperty IRI="#nick"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#tipjar"/>
+        <ObjectProperty IRI="#page"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#weblog"/>
+        <ObjectProperty IRI="#page"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#wrote"/>
+        <ObjectProperty IRI="#made"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#yahooChatID"/>
+        <ObjectProperty IRI="#nick"/>
     </SubObjectPropertyOf>
     <InverseObjectProperties>
-        <ObjectProperty IRI="depiction"/>
-        <ObjectProperty IRI="depicts"/>
+        <ObjectProperty IRI="#has_actor"/>
+        <ObjectProperty IRI="#acted_in"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
-        <ObjectProperty IRI="primaryTopic"/>
-        <ObjectProperty IRI="isPrimaryTopicOf"/>
+        <ObjectProperty IRI="#belongs_to"/>
+        <ObjectProperty IRI="#has"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
-        <ObjectProperty IRI="maker"/>
-        <ObjectProperty IRI="made"/>
+        <ObjectProperty IRI="#depiction"/>
+        <ObjectProperty IRI="#depicts"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
-        <ObjectProperty IRI="page"/>
-        <ObjectProperty IRI="topic"/>
+        <ObjectProperty IRI="#has_director"/>
+        <ObjectProperty IRI="#directed"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#has_producer"/>
+        <ObjectProperty IRI="#produced"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#has_screenwriter"/>
+        <ObjectProperty IRI="#wrote"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#primaryTopic"/>
+        <ObjectProperty IRI="#isPrimaryTopicOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#made"/>
+        <ObjectProperty IRI="#maker"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#page"/>
+        <ObjectProperty IRI="#topic"/>
     </InverseObjectProperties>
     <FunctionalObjectProperty>
-        <ObjectProperty IRI="primaryTopic"/>
+        <ObjectProperty IRI="#primaryTopic"/>
     </FunctionalObjectProperty>
     <InverseFunctionalObjectProperty>
-        <ObjectProperty IRI="aimChatID"/>
+        <ObjectProperty IRI="#aimChatID"/>
     </InverseFunctionalObjectProperty>
     <InverseFunctionalObjectProperty>
-        <ObjectProperty IRI="homepage"/>
+        <ObjectProperty IRI="#homepage"/>
     </InverseFunctionalObjectProperty>
     <InverseFunctionalObjectProperty>
-        <ObjectProperty IRI="icqChatID"/>
+        <ObjectProperty IRI="#icqChatID"/>
     </InverseFunctionalObjectProperty>
     <InverseFunctionalObjectProperty>
-        <ObjectProperty IRI="isPrimaryTopicOf"/>
+        <ObjectProperty IRI="#isPrimaryTopicOf"/>
     </InverseFunctionalObjectProperty>
     <InverseFunctionalObjectProperty>
-        <ObjectProperty IRI="jabberID"/>
+        <ObjectProperty IRI="#jabberID"/>
     </InverseFunctionalObjectProperty>
     <InverseFunctionalObjectProperty>
-        <ObjectProperty IRI="logo"/>
+        <ObjectProperty IRI="#logo"/>
     </InverseFunctionalObjectProperty>
     <InverseFunctionalObjectProperty>
-        <ObjectProperty IRI="mbox"/>
+        <ObjectProperty IRI="#mbox"/>
     </InverseFunctionalObjectProperty>
     <InverseFunctionalObjectProperty>
-        <ObjectProperty IRI="mbox_sha1sum"/>
+        <ObjectProperty IRI="#mbox_sha1sum"/>
     </InverseFunctionalObjectProperty>
     <InverseFunctionalObjectProperty>
-        <ObjectProperty IRI="msnChatID"/>
+        <ObjectProperty IRI="#msnChatID"/>
     </InverseFunctionalObjectProperty>
     <InverseFunctionalObjectProperty>
-        <ObjectProperty IRI="openid"/>
+        <ObjectProperty IRI="#openid"/>
     </InverseFunctionalObjectProperty>
     <InverseFunctionalObjectProperty>
-        <ObjectProperty IRI="weblog"/>
+        <ObjectProperty IRI="#weblog"/>
     </InverseFunctionalObjectProperty>
     <InverseFunctionalObjectProperty>
-        <ObjectProperty IRI="yahooChatID"/>
+        <ObjectProperty IRI="#yahooChatID"/>
     </InverseFunctionalObjectProperty>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="account"/>
-        <Class IRI="Agent"/>
+        <ObjectProperty IRI="#account"/>
+        <Class IRI="#Agent"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="accountServiceHomepage"/>
-        <Class IRI="OnlineAccount"/>
+        <ObjectProperty IRI="#acted_in"/>
+        <Class IRI="#Actor"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="aimChatID"/>
-        <Class IRI="Agent"/>
+        <ObjectProperty IRI="#aimChatID"/>
+        <Class IRI="#Agent"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="based_near"/>
-        <Class IRI="http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="currentProject"/>
-        <Class IRI="Person"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="depiction"/>
+        <ObjectProperty IRI="#belongs_to"/>
         <Class abbreviatedIRI="owl:Thing"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="depicts"/>
-        <Class IRI="Image"/>
+        <ObjectProperty IRI="#currentProject"/>
+        <Class IRI="#Person"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="focus"/>
-        <Class IRI="http://www.w3.org/2004/02/skos/core#Concept"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="fundedBy"/>
+        <ObjectProperty IRI="#depiction"/>
         <Class abbreviatedIRI="owl:Thing"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="holdsAccount"/>
-        <Class IRI="Agent"/>
+        <ObjectProperty IRI="#directed"/>
+        <Class IRI="#Director"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="homepage"/>
+        <ObjectProperty IRI="#fundedBy"/>
         <Class abbreviatedIRI="owl:Thing"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="icqChatID"/>
-        <Class IRI="Agent"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="img"/>
-        <Class IRI="Person"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="interest"/>
-        <Class IRI="Agent"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="isPrimaryTopicOf"/>
+        <ObjectProperty IRI="#has"/>
         <Class abbreviatedIRI="owl:Thing"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="jabberID"/>
-        <Class IRI="Agent"/>
+        <ObjectProperty IRI="#has_actor"/>
+        <Class IRI="#Movie"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="knows"/>
-        <Class IRI="Person"/>
+        <ObjectProperty IRI="#has_director"/>
+        <Class IRI="#Movie"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="logo"/>
+        <ObjectProperty IRI="#has_producer"/>
+        <Class IRI="#Movie"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_screenwriter"/>
+        <Class IRI="#Movie"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#holdsAccount"/>
+        <Class IRI="#Agent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#homepage"/>
         <Class abbreviatedIRI="owl:Thing"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="made"/>
-        <Class IRI="Agent"/>
+        <ObjectProperty IRI="#icqChatID"/>
+        <Class IRI="#Agent"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="maker"/>
+        <ObjectProperty IRI="#img"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#interest"/>
+        <Class IRI="#Agent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isPrimaryTopicOf"/>
         <Class abbreviatedIRI="owl:Thing"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="mbox"/>
-        <Class IRI="Agent"/>
+        <ObjectProperty IRI="#jabberID"/>
+        <Class IRI="#Agent"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="mbox_sha1sum"/>
-        <Class IRI="Agent"/>
+        <ObjectProperty IRI="#knows"/>
+        <Class IRI="#Person"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="member"/>
-        <Class IRI="Group"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="msnChatID"/>
-        <Class IRI="Agent"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="openid"/>
-        <Class IRI="Agent"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="page"/>
+        <ObjectProperty IRI="#logo"/>
         <Class abbreviatedIRI="owl:Thing"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="pastProject"/>
-        <Class IRI="Person"/>
+        <ObjectProperty IRI="#made"/>
+        <Class IRI="#Agent"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="primaryTopic"/>
-        <Class IRI="Document"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="publications"/>
-        <Class IRI="Person"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="schoolHomepage"/>
-        <Class IRI="Person"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="skypeID"/>
-        <Class IRI="Agent"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="theme"/>
+        <ObjectProperty IRI="#maker"/>
         <Class abbreviatedIRI="owl:Thing"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="thumbnail"/>
-        <Class IRI="Image"/>
+        <ObjectProperty IRI="#mbox"/>
+        <Class IRI="#Agent"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="tipjar"/>
-        <Class IRI="Agent"/>
+        <ObjectProperty IRI="#mbox_sha1sum"/>
+        <Class IRI="#Agent"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="topic"/>
-        <Class IRI="Document"/>
+        <ObjectProperty IRI="#msnChatID"/>
+        <Class IRI="#Agent"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="topic_interest"/>
-        <Class IRI="Agent"/>
+        <ObjectProperty IRI="#openid"/>
+        <Class IRI="#Agent"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="weblog"/>
-        <Class IRI="Agent"/>
+        <ObjectProperty IRI="#page"/>
+        <Class abbreviatedIRI="owl:Thing"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="workInfoHomepage"/>
-        <Class IRI="Person"/>
+        <ObjectProperty IRI="#pastProject"/>
+        <Class IRI="#Person"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="workplaceHomepage"/>
-        <Class IRI="Person"/>
+        <ObjectProperty IRI="#produced"/>
+        <Class IRI="#Producer"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="yahooChatID"/>
-        <Class IRI="Agent"/>
+        <ObjectProperty IRI="#publications"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#schoolHomepage"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#skypeID"/>
+        <Class IRI="#Agent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#theme"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tipjar"/>
+        <Class IRI="#Agent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#topic_interest"/>
+        <Class IRI="#Agent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#weblog"/>
+        <Class IRI="#Agent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#workInfoHomepage"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#workplaceHomepage"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#wrote"/>
+        <Class IRI="#Screenwriter"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#yahooChatID"/>
+        <Class IRI="#Agent"/>
     </ObjectPropertyDomain>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="account"/>
-        <Class IRI="OnlineAccount"/>
+        <ObjectProperty IRI="#acted_in"/>
+        <Class IRI="#Movie"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="accountServiceHomepage"/>
-        <Class IRI="Document"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="based_near"/>
-        <Class IRI="http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="currentProject"/>
+        <ObjectProperty IRI="#belongs_to"/>
         <Class abbreviatedIRI="owl:Thing"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="depiction"/>
-        <Class IRI="Image"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="depicts"/>
+        <ObjectProperty IRI="#currentProject"/>
         <Class abbreviatedIRI="owl:Thing"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="focus"/>
+        <ObjectProperty IRI="#depicts"/>
         <Class abbreviatedIRI="owl:Thing"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="fundedBy"/>
+        <ObjectProperty IRI="#directed"/>
+        <Class IRI="#Movie"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#focus"/>
         <Class abbreviatedIRI="owl:Thing"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="holdsAccount"/>
-        <Class IRI="OnlineAccount"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="homepage"/>
-        <Class IRI="Document"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="img"/>
-        <Class IRI="Image"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="interest"/>
-        <Class IRI="Document"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="isPrimaryTopicOf"/>
-        <Class IRI="Document"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="knows"/>
-        <Class IRI="Person"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="logo"/>
+        <ObjectProperty IRI="#fundedBy"/>
         <Class abbreviatedIRI="owl:Thing"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="made"/>
+        <ObjectProperty IRI="#has"/>
         <Class abbreviatedIRI="owl:Thing"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="maker"/>
-        <Class IRI="Agent"/>
+        <ObjectProperty IRI="#has_actor"/>
+        <Class IRI="#Actor"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="mbox"/>
+        <ObjectProperty IRI="#has_director"/>
+        <Class IRI="#Director"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_producer"/>
+        <Class IRI="#Producer"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_screenwriter"/>
+        <Class IRI="#Screenwriter"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#knows"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#logo"/>
         <Class abbreviatedIRI="owl:Thing"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="member"/>
-        <Class IRI="Agent"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="openid"/>
-        <Class IRI="Document"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="page"/>
-        <Class IRI="Document"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="pastProject"/>
+        <ObjectProperty IRI="#made"/>
         <Class abbreviatedIRI="owl:Thing"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="primaryTopic"/>
+        <ObjectProperty IRI="#maker"/>
+        <Class IRI="#Agent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#mbox"/>
         <Class abbreviatedIRI="owl:Thing"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="publications"/>
-        <Class IRI="Document"/>
+        <ObjectProperty IRI="#member"/>
+        <Class IRI="#Agent"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="schoolHomepage"/>
-        <Class IRI="Document"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="theme"/>
+        <ObjectProperty IRI="#pastProject"/>
         <Class abbreviatedIRI="owl:Thing"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="thumbnail"/>
-        <Class IRI="Image"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="tipjar"/>
-        <Class IRI="Document"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="topic"/>
+        <ObjectProperty IRI="#primaryTopic"/>
         <Class abbreviatedIRI="owl:Thing"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="topic_interest"/>
+        <ObjectProperty IRI="#produced"/>
+        <Class IRI="#Movie"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#theme"/>
         <Class abbreviatedIRI="owl:Thing"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="weblog"/>
-        <Class IRI="Document"/>
+        <ObjectProperty IRI="#topic"/>
+        <Class abbreviatedIRI="owl:Thing"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="workInfoHomepage"/>
-        <Class IRI="Document"/>
+        <ObjectProperty IRI="#topic_interest"/>
+        <Class abbreviatedIRI="owl:Thing"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="workplaceHomepage"/>
-        <Class IRI="Document"/>
+        <ObjectProperty IRI="#wrote"/>
+        <Class IRI="#Movie"/>
     </ObjectPropertyRange>
     <FunctionalDataProperty>
-        <DataProperty IRI="age"/>
+        <DataProperty IRI="#age"/>
     </FunctionalDataProperty>
     <FunctionalDataProperty>
-        <DataProperty IRI="birthday"/>
+        <DataProperty IRI="#birthday"/>
     </FunctionalDataProperty>
     <FunctionalDataProperty>
-        <DataProperty IRI="gender"/>
+        <DataProperty IRI="#gender"/>
     </FunctionalDataProperty>
     <DataPropertyDomain>
-        <DataProperty IRI="accountName"/>
-        <Class IRI="OnlineAccount"/>
+        <DataProperty IRI="#age"/>
+        <Class IRI="#Agent"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="age"/>
-        <Class IRI="Agent"/>
+        <DataProperty IRI="#birthday"/>
+        <Class IRI="#Agent"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="birthday"/>
-        <Class IRI="Agent"/>
+        <DataProperty IRI="#familyName"/>
+        <Class IRI="#Person"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="familyName"/>
-        <Class IRI="Person"/>
+        <DataProperty IRI="#family_name"/>
+        <Class IRI="#Person"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="family_name"/>
-        <Class IRI="Person"/>
+        <DataProperty IRI="#firstName"/>
+        <Class IRI="#Person"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="firstName"/>
-        <Class IRI="Person"/>
+        <DataProperty IRI="#geekcode"/>
+        <Class IRI="#Person"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="geekcode"/>
-        <Class IRI="Person"/>
+        <DataProperty IRI="#gender"/>
+        <Class IRI="#Agent"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="gender"/>
-        <Class IRI="Agent"/>
+        <DataProperty IRI="#lastName"/>
+        <Class IRI="#Person"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="lastName"/>
-        <Class IRI="Person"/>
+        <DataProperty IRI="#myersBriggs"/>
+        <Class IRI="#Person"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="myersBriggs"/>
-        <Class IRI="Person"/>
+        <DataProperty IRI="#plan"/>
+        <Class IRI="#Person"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="plan"/>
-        <Class IRI="Person"/>
+        <DataProperty IRI="#release_year"/>
+        <Class IRI="#Movie"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="sha1"/>
-        <Class IRI="Document"/>
+        <DataProperty IRI="#status"/>
+        <Class IRI="#Agent"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="status"/>
-        <Class IRI="Agent"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="surname"/>
-        <Class IRI="Person"/>
+        <DataProperty IRI="#surname"/>
+        <Class IRI="#Person"/>
     </DataPropertyDomain>
     <DataPropertyRange>
-        <DataProperty IRI="accountName"/>
+        <DataProperty IRI="#accountName"/>
         <Datatype abbreviatedIRI="rdfs:Literal"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="age"/>
+        <DataProperty IRI="#age"/>
         <Datatype abbreviatedIRI="rdfs:Literal"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="aimChatID"/>
+        <DataProperty IRI="#aimChatID"/>
         <Datatype abbreviatedIRI="rdfs:Literal"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="birthday"/>
+        <DataProperty IRI="#birthday"/>
         <Datatype abbreviatedIRI="rdfs:Literal"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="dnaChecksum"/>
+        <DataProperty IRI="#dnaChecksum"/>
         <Datatype abbreviatedIRI="rdfs:Literal"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="familyName"/>
+        <DataProperty IRI="#familyName"/>
         <Datatype abbreviatedIRI="rdfs:Literal"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="family_name"/>
+        <DataProperty IRI="#family_name"/>
         <Datatype abbreviatedIRI="rdfs:Literal"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="firstName"/>
+        <DataProperty IRI="#firstName"/>
         <Datatype abbreviatedIRI="rdfs:Literal"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="geekcode"/>
+        <DataProperty IRI="#geekcode"/>
         <Datatype abbreviatedIRI="rdfs:Literal"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="gender"/>
+        <DataProperty IRI="#gender"/>
         <Datatype abbreviatedIRI="rdfs:Literal"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="icqChatID"/>
+        <DataProperty IRI="#icqChatID"/>
         <Datatype abbreviatedIRI="rdfs:Literal"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="jabberID"/>
+        <DataProperty IRI="#jabberID"/>
         <Datatype abbreviatedIRI="rdfs:Literal"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="lastName"/>
+        <DataProperty IRI="#lastName"/>
         <Datatype abbreviatedIRI="rdfs:Literal"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="mbox_sha1sum"/>
+        <DataProperty IRI="#mbox_sha1sum"/>
         <Datatype abbreviatedIRI="rdfs:Literal"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="msnChatID"/>
+        <DataProperty IRI="#msnChatID"/>
         <Datatype abbreviatedIRI="rdfs:Literal"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="myersBriggs"/>
+        <DataProperty IRI="#myersBriggs"/>
         <Datatype abbreviatedIRI="rdfs:Literal"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="name"/>
+        <DataProperty IRI="#name"/>
         <Datatype abbreviatedIRI="rdfs:Literal"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="plan"/>
+        <DataProperty IRI="#plan"/>
         <Datatype abbreviatedIRI="rdfs:Literal"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="skypeID"/>
+        <DataProperty IRI="#release_year"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#skypeID"/>
         <Datatype abbreviatedIRI="rdfs:Literal"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="status"/>
+        <DataProperty IRI="#status"/>
         <Datatype abbreviatedIRI="rdfs:Literal"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="surname"/>
+        <DataProperty IRI="#surname"/>
         <Datatype abbreviatedIRI="rdfs:Literal"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="yahooChatID"/>
+        <DataProperty IRI="#yahooChatID"/>
         <Datatype abbreviatedIRI="rdfs:Literal"/>
     </DataPropertyRange>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>Agent</IRI>
+        <IRI>#Agent</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">An agent (eg. person, group, software or physical artifact).</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Agent</IRI>
+        <IRI>#Agent</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Agent</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="vs:term_status"/>
-        <IRI>Agent</IRI>
+        <IRI>#Agent</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">stable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>Document</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">A document.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>Document</IRI>
-        <AbbreviatedIRI>foaf:</AbbreviatedIRI>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Document</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Document</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="vs:term_status"/>
-        <IRI>Document</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">stable</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>Group</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">A class of Agents.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Group</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Group</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="vs:term_status"/>
-        <IRI>Group</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">stable</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>Image</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">An image.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>Image</IRI>
-        <AbbreviatedIRI>foaf:</AbbreviatedIRI>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Image</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Image</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="vs:term_status"/>
-        <IRI>Image</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">stable</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>LabelProperty</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">A foaf:LabelProperty is any RDF property with texual values that serve as labels.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>LabelProperty</IRI>
-        <AbbreviatedIRI>foaf:</AbbreviatedIRI>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>LabelProperty</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Label Property</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="vs:term_status"/>
-        <IRI>LabelProperty</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">unstable</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>OnlineAccount</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">An online account.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>OnlineAccount</IRI>
-        <AbbreviatedIRI>foaf:</AbbreviatedIRI>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>OnlineAccount</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Online Account</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="vs:term_status"/>
-        <IRI>OnlineAccount</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">testing</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>OnlineChatAccount</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">An online chat account.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>OnlineChatAccount</IRI>
-        <AbbreviatedIRI>foaf:</AbbreviatedIRI>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>OnlineChatAccount</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Online Chat Account</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="vs:term_status"/>
-        <IRI>OnlineChatAccount</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">unstable</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>OnlineEcommerceAccount</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">An online e-commerce account.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>OnlineEcommerceAccount</IRI>
-        <AbbreviatedIRI>foaf:</AbbreviatedIRI>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>OnlineEcommerceAccount</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Online E-commerce Account</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="vs:term_status"/>
-        <IRI>OnlineEcommerceAccount</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">unstable</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>OnlineGamingAccount</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">An online gaming account.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>OnlineGamingAccount</IRI>
-        <AbbreviatedIRI>foaf:</AbbreviatedIRI>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>OnlineGamingAccount</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Online Gaming Account</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="vs:term_status"/>
-        <IRI>OnlineGamingAccount</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">unstable</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>Organization</IRI>
+        <IRI>#Organization</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">An organization.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>Organization</IRI>
+        <IRI>#Organization</IRI>
         <AbbreviatedIRI>foaf:</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Organization</IRI>
+        <IRI>#Organization</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Organization</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="vs:term_status"/>
-        <IRI>Organization</IRI>
+        <IRI>#Organization</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">stable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>Person</IRI>
+        <IRI>#Person</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">A person.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>Person</IRI>
+        <IRI>#Person</IRI>
         <AbbreviatedIRI>foaf:</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Person</IRI>
+        <IRI>#Person</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Person</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="vs:term_status"/>
-        <IRI>Person</IRI>
+        <IRI>#Person</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">stable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>PersonalProfileDocument</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">A personal profile RDF document.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>PersonalProfileDocument</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">PersonalProfileDocument</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="vs:term_status"/>
-        <IRI>PersonalProfileDocument</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">testing</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>Project</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">A project (a collective endeavour of some kind).</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>Project</IRI>
-        <AbbreviatedIRI>foaf:</AbbreviatedIRI>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>Project</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Project</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="vs:term_status"/>
-        <IRI>Project</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">testing</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>account</IRI>
+        <IRI>#account</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Indicates an account held by this agent.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>account</IRI>
+        <IRI>#account</IRI>
         <AbbreviatedIRI>foaf:</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>account</IRI>
+        <IRI>#account</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">account</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="vs:term_status"/>
-        <IRI>account</IRI>
+        <IRI>#account</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">testing</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>accountName</IRI>
+        <IRI>#accountName</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Indicates the name (identifier) associated with this online account.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>accountName</IRI>
+        <IRI>#accountName</IRI>
         <AbbreviatedIRI>foaf:</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>accountName</IRI>
+        <IRI>#accountName</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">account name</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="vs:term_status"/>
-        <IRI>accountName</IRI>
+        <IRI>#accountName</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">testing</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>accountServiceHomepage</IRI>
+        <IRI>#accountServiceHomepage</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Indicates a homepage of the service provide for this online account.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>accountServiceHomepage</IRI>
+        <IRI>#accountServiceHomepage</IRI>
         <AbbreviatedIRI>foaf:</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>accountServiceHomepage</IRI>
+        <IRI>#accountServiceHomepage</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">account service homepage</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="vs:term_status"/>
-        <IRI>accountServiceHomepage</IRI>
+        <IRI>#accountServiceHomepage</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">testing</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>age</IRI>
+        <IRI>#age</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">The age in years of some agent.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>age</IRI>
+        <IRI>#age</IRI>
         <AbbreviatedIRI>foaf:</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>age</IRI>
+        <IRI>#age</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">age</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="vs:term_status"/>
-        <IRI>age</IRI>
+        <IRI>#age</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">unstable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>aimChatID</IRI>
+        <IRI>#aimChatID</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">An AIM chat ID</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>aimChatID</IRI>
+        <IRI>#aimChatID</IRI>
         <AbbreviatedIRI>foaf:</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>aimChatID</IRI>
+        <IRI>#aimChatID</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">AIM chat ID</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="vs:term_status"/>
-        <IRI>aimChatID</IRI>
+        <IRI>#aimChatID</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">testing</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>based_near</IRI>
+        <IRI>#based_near</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">A location that something is based near, for some broadly human notion of near.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>based_near</IRI>
+        <IRI>#based_near</IRI>
         <AbbreviatedIRI>foaf:</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>based_near</IRI>
+        <IRI>#based_near</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">based near</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="vs:term_status"/>
-        <IRI>based_near</IRI>
+        <IRI>#based_near</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">testing</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>birthday</IRI>
+        <IRI>#birthday</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">The birthday of this Agent, represented in mm-dd string form, eg. &apos;12-31&apos;.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>birthday</IRI>
+        <IRI>#birthday</IRI>
         <AbbreviatedIRI>foaf:</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>birthday</IRI>
+        <IRI>#birthday</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">birthday</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="vs:term_status"/>
-        <IRI>birthday</IRI>
+        <IRI>#birthday</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">unstable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>currentProject</IRI>
+        <IRI>#currentProject</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">A current project this person works on.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>currentProject</IRI>
+        <IRI>#currentProject</IRI>
         <AbbreviatedIRI>foaf:</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>currentProject</IRI>
+        <IRI>#currentProject</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">current project</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="vs:term_status"/>
-        <IRI>currentProject</IRI>
+        <IRI>#currentProject</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">testing</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>depiction</IRI>
+        <IRI>#depiction</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">A depiction of some thing.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>depiction</IRI>
+        <IRI>#depiction</IRI>
         <AbbreviatedIRI>foaf:</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>depiction</IRI>
+        <IRI>#depiction</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">depiction</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="vs:term_status"/>
-        <IRI>depiction</IRI>
+        <IRI>#depiction</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">testing</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>depicts</IRI>
+        <IRI>#depicts</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">A thing depicted in this representation.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>depicts</IRI>
+        <IRI>#depicts</IRI>
         <AbbreviatedIRI>foaf:</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>depicts</IRI>
+        <IRI>#depicts</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">depicts</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="vs:term_status"/>
-        <IRI>depicts</IRI>
+        <IRI>#depicts</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">testing</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>dnaChecksum</IRI>
+        <IRI>#dnaChecksum</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">A checksum for the DNA of some thing. Joke.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>dnaChecksum</IRI>
+        <IRI>#dnaChecksum</IRI>
         <AbbreviatedIRI>foaf:</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>dnaChecksum</IRI>
+        <IRI>#dnaChecksum</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">DNA checksum</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="vs:term_status"/>
-        <IRI>dnaChecksum</IRI>
+        <IRI>#dnaChecksum</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">archaic</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>familyName</IRI>
+        <IRI>#familyName</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">The family name of some person.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>familyName</IRI>
+        <IRI>#familyName</IRI>
         <AbbreviatedIRI>foaf:</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>familyName</IRI>
+        <IRI>#familyName</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">familyName</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="vs:term_status"/>
-        <IRI>familyName</IRI>
+        <IRI>#familyName</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">testing</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>family_name</IRI>
+        <IRI>#family_name</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">The family name of some person.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>family_name</IRI>
+        <IRI>#family_name</IRI>
         <AbbreviatedIRI>foaf:</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>family_name</IRI>
+        <IRI>#family_name</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">family_name</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="vs:term_status"/>
-        <IRI>family_name</IRI>
+        <IRI>#family_name</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">archaic</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>firstName</IRI>
+        <IRI>#firstName</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">The first name of a person.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>firstName</IRI>
+        <IRI>#firstName</IRI>
         <AbbreviatedIRI>foaf:</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>firstName</IRI>
+        <IRI>#firstName</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">firstName</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="vs:term_status"/>
-        <IRI>firstName</IRI>
+        <IRI>#firstName</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">testing</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>focus</IRI>
+        <IRI>#focus</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">The underlying or &apos;focal&apos; entity associated with some SKOS-described concept.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>focus</IRI>
+        <IRI>#focus</IRI>
         <AbbreviatedIRI>foaf:</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>focus</IRI>
+        <IRI>#focus</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">focus</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="vs:term_status"/>
-        <IRI>focus</IRI>
+        <IRI>#focus</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">testing</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>fundedBy</IRI>
+        <IRI>#fundedBy</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">An organization funding a project or person.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>fundedBy</IRI>
+        <IRI>#fundedBy</IRI>
         <AbbreviatedIRI>foaf:</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>fundedBy</IRI>
+        <IRI>#fundedBy</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">funded by</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="vs:term_status"/>
-        <IRI>fundedBy</IRI>
+        <IRI>#fundedBy</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">archaic</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>geekcode</IRI>
+        <IRI>#geekcode</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">A textual geekcode for this person, see http://www.geekcode.com/geek.html</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>geekcode</IRI>
+        <IRI>#geekcode</IRI>
         <AbbreviatedIRI>foaf:</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>geekcode</IRI>
+        <IRI>#geekcode</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">geekcode</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="vs:term_status"/>
-        <IRI>geekcode</IRI>
+        <IRI>#geekcode</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">archaic</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>gender</IRI>
+        <IRI>#gender</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">The gender of this Agent (typically but not necessarily &apos;male&apos; or &apos;female&apos;).</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>gender</IRI>
+        <IRI>#gender</IRI>
         <AbbreviatedIRI>foaf:</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>gender</IRI>
+        <IRI>#gender</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">gender</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="vs:term_status"/>
-        <IRI>gender</IRI>
+        <IRI>#gender</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">testing</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>givenName</IRI>
+        <IRI>#givenName</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">The given name of some person.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>givenName</IRI>
+        <IRI>#givenName</IRI>
         <AbbreviatedIRI>foaf:</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>givenName</IRI>
+        <IRI>#givenName</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Given name</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="vs:term_status"/>
-        <IRI>givenName</IRI>
+        <IRI>#givenName</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">testing</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>givenname</IRI>
+        <IRI>#givenname</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">The given name of some person.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>givenname</IRI>
+        <IRI>#givenname</IRI>
         <AbbreviatedIRI>foaf:</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>givenname</IRI>
+        <IRI>#givenname</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Given name</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="vs:term_status"/>
-        <IRI>givenname</IRI>
+        <IRI>#givenname</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">archaic</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>holdsAccount</IRI>
+        <IRI>#holdsAccount</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Indicates an account held by this agent.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>holdsAccount</IRI>
+        <IRI>#holdsAccount</IRI>
         <AbbreviatedIRI>foaf:</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>holdsAccount</IRI>
+        <IRI>#holdsAccount</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">account</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="vs:term_status"/>
-        <IRI>holdsAccount</IRI>
+        <IRI>#holdsAccount</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">archaic</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>homepage</IRI>
+        <IRI>#homepage</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">A homepage for some thing.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>homepage</IRI>
+        <IRI>#homepage</IRI>
         <AbbreviatedIRI>foaf:</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>homepage</IRI>
+        <IRI>#homepage</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">homepage</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="vs:term_status"/>
-        <IRI>homepage</IRI>
+        <IRI>#homepage</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">stable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>icqChatID</IRI>
+        <IRI>#icqChatID</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">An ICQ chat ID</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>icqChatID</IRI>
+        <IRI>#icqChatID</IRI>
         <AbbreviatedIRI>foaf:</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>icqChatID</IRI>
+        <IRI>#icqChatID</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">ICQ chat ID</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="vs:term_status"/>
-        <IRI>icqChatID</IRI>
+        <IRI>#icqChatID</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">testing</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>img</IRI>
+        <IRI>#img</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">An image that can be used to represent some thing (ie. those depictions which are particularly representative of something, eg. one&apos;s photo on a homepage).</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>img</IRI>
+        <IRI>#img</IRI>
         <AbbreviatedIRI>foaf:</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>img</IRI>
+        <IRI>#img</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">image</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="vs:term_status"/>
-        <IRI>img</IRI>
+        <IRI>#img</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">testing</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>interest</IRI>
+        <IRI>#interest</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">A page about a topic of interest to this person.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>interest</IRI>
+        <IRI>#interest</IRI>
         <AbbreviatedIRI>foaf:</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>interest</IRI>
+        <IRI>#interest</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">interest</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="vs:term_status"/>
-        <IRI>interest</IRI>
+        <IRI>#interest</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">testing</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>isPrimaryTopicOf</IRI>
+        <IRI>#isPrimaryTopicOf</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">A document that this thing is the primary topic of.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>isPrimaryTopicOf</IRI>
+        <IRI>#isPrimaryTopicOf</IRI>
         <AbbreviatedIRI>foaf:</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>isPrimaryTopicOf</IRI>
+        <IRI>#isPrimaryTopicOf</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">is primary topic of</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="vs:term_status"/>
-        <IRI>isPrimaryTopicOf</IRI>
+        <IRI>#isPrimaryTopicOf</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">stable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>jabberID</IRI>
+        <IRI>#jabberID</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">A jabber ID for something.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>jabberID</IRI>
+        <IRI>#jabberID</IRI>
         <AbbreviatedIRI>foaf:</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>jabberID</IRI>
+        <IRI>#jabberID</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">jabber ID</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="vs:term_status"/>
-        <IRI>jabberID</IRI>
+        <IRI>#jabberID</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">testing</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>knows</IRI>
+        <IRI>#knows</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">A person known by this person (indicating some level of reciprocated interaction between the parties).</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>knows</IRI>
+        <IRI>#knows</IRI>
         <AbbreviatedIRI>foaf:</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>knows</IRI>
+        <IRI>#knows</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">knows</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="vs:term_status"/>
-        <IRI>knows</IRI>
+        <IRI>#knows</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">stable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>lastName</IRI>
+        <IRI>#lastName</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">The last name of a person.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>lastName</IRI>
+        <IRI>#lastName</IRI>
         <AbbreviatedIRI>foaf:</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>lastName</IRI>
+        <IRI>#lastName</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">lastName</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="vs:term_status"/>
-        <IRI>lastName</IRI>
+        <IRI>#lastName</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">testing</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>logo</IRI>
+        <IRI>#logo</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">A logo representing some thing.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>logo</IRI>
+        <IRI>#logo</IRI>
         <AbbreviatedIRI>foaf:</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>logo</IRI>
+        <IRI>#logo</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">logo</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="vs:term_status"/>
-        <IRI>logo</IRI>
+        <IRI>#logo</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">testing</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>made</IRI>
+        <IRI>#made</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Something that was made by this agent.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>made</IRI>
+        <IRI>#made</IRI>
         <AbbreviatedIRI>foaf:</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>made</IRI>
+        <IRI>#made</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">made</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="vs:term_status"/>
-        <IRI>made</IRI>
+        <IRI>#made</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">stable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>maker</IRI>
+        <IRI>#maker</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">An agent that  made this thing.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>maker</IRI>
+        <IRI>#maker</IRI>
         <AbbreviatedIRI>foaf:</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>maker</IRI>
+        <IRI>#maker</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">maker</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="vs:term_status"/>
-        <IRI>maker</IRI>
+        <IRI>#maker</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">stable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>mbox</IRI>
+        <IRI>#mbox</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">A  personal mailbox, ie. an Internet mailbox associated with exactly one owner, the first owner of this mailbox. This is a &apos;static inverse functional property&apos;, in that  there is (across time and change) at most one individual that ever has any particular value for foaf:mbox.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>mbox</IRI>
+        <IRI>#mbox</IRI>
         <AbbreviatedIRI>foaf:</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>mbox</IRI>
+        <IRI>#mbox</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">personal mailbox</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="vs:term_status"/>
-        <IRI>mbox</IRI>
+        <IRI>#mbox</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">stable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>mbox_sha1sum</IRI>
+        <IRI>#mbox_sha1sum</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">The sha1sum of the URI of an Internet mailbox associated with exactly one owner, the  first owner of the mailbox.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>mbox_sha1sum</IRI>
+        <IRI>#mbox_sha1sum</IRI>
         <AbbreviatedIRI>foaf:</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>mbox_sha1sum</IRI>
+        <IRI>#mbox_sha1sum</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">sha1sum of a personal mailbox URI name</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="vs:term_status"/>
-        <IRI>mbox_sha1sum</IRI>
+        <IRI>#mbox_sha1sum</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">testing</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>member</IRI>
+        <IRI>#member</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Indicates a member of a Group</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>member</IRI>
+        <IRI>#member</IRI>
         <AbbreviatedIRI>foaf:</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>member</IRI>
+        <IRI>#member</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">member</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="vs:term_status"/>
-        <IRI>member</IRI>
+        <IRI>#member</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">stable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>membershipClass</IRI>
+        <IRI>#membershipClass</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Indicates the class of individuals that are a member of a Group</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>membershipClass</IRI>
+        <IRI>#membershipClass</IRI>
         <AbbreviatedIRI>foaf:</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>membershipClass</IRI>
+        <IRI>#membershipClass</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">membershipClass</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="vs:term_status"/>
-        <IRI>membershipClass</IRI>
+        <IRI>#membershipClass</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">unstable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>msnChatID</IRI>
+        <IRI>#msnChatID</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">An MSN chat ID</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>msnChatID</IRI>
+        <IRI>#msnChatID</IRI>
         <AbbreviatedIRI>foaf:</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>msnChatID</IRI>
+        <IRI>#msnChatID</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">MSN chat ID</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="vs:term_status"/>
-        <IRI>msnChatID</IRI>
+        <IRI>#msnChatID</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">testing</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>myersBriggs</IRI>
+        <IRI>#myersBriggs</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">A Myers Briggs (MBTI) personality classification.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>myersBriggs</IRI>
+        <IRI>#myersBriggs</IRI>
         <AbbreviatedIRI>foaf:</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>myersBriggs</IRI>
+        <IRI>#myersBriggs</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">myersBriggs</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="vs:term_status"/>
-        <IRI>myersBriggs</IRI>
+        <IRI>#myersBriggs</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">testing</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>name</IRI>
+        <IRI>#name</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">A name for some thing.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>name</IRI>
+        <IRI>#name</IRI>
         <AbbreviatedIRI>foaf:</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>name</IRI>
+        <IRI>#name</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">name</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="vs:term_status"/>
-        <IRI>name</IRI>
+        <IRI>#name</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">testing</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>nick</IRI>
+        <IRI>#nick</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">A short informal nickname characterising an agent (includes login identifiers, IRC and other chat nicknames).</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>nick</IRI>
+        <IRI>#nick</IRI>
         <AbbreviatedIRI>foaf:</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>nick</IRI>
+        <IRI>#nick</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">nickname</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="vs:term_status"/>
-        <IRI>nick</IRI>
+        <IRI>#nick</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">testing</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>openid</IRI>
+        <IRI>#openid</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">An OpenID for an Agent.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>openid</IRI>
+        <IRI>#openid</IRI>
         <AbbreviatedIRI>foaf:</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>openid</IRI>
+        <IRI>#openid</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">openid</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="vs:term_status"/>
-        <IRI>openid</IRI>
+        <IRI>#openid</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">testing</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>page</IRI>
+        <IRI>#page</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">A page or document about this thing.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>page</IRI>
+        <IRI>#page</IRI>
         <AbbreviatedIRI>foaf:</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>page</IRI>
+        <IRI>#page</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">page</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="vs:term_status"/>
-        <IRI>page</IRI>
+        <IRI>#page</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">stable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>pastProject</IRI>
+        <IRI>#pastProject</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">A project this person has previously worked on.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>pastProject</IRI>
+        <IRI>#pastProject</IRI>
         <AbbreviatedIRI>foaf:</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>pastProject</IRI>
+        <IRI>#pastProject</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">past project</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="vs:term_status"/>
-        <IRI>pastProject</IRI>
+        <IRI>#pastProject</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">testing</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>phone</IRI>
+        <IRI>#phone</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">A phone,  specified using fully qualified tel: URI scheme (refs: http://www.w3.org/Addressing/schemes.html#tel).</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>phone</IRI>
+        <IRI>#phone</IRI>
         <AbbreviatedIRI>foaf:</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>phone</IRI>
+        <IRI>#phone</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">phone</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="vs:term_status"/>
-        <IRI>phone</IRI>
+        <IRI>#phone</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">testing</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>plan</IRI>
+        <IRI>#plan</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">A .plan comment, in the tradition of finger and &apos;.plan&apos; files.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>plan</IRI>
+        <IRI>#plan</IRI>
         <AbbreviatedIRI>foaf:</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>plan</IRI>
+        <IRI>#plan</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">plan</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="vs:term_status"/>
-        <IRI>plan</IRI>
+        <IRI>#plan</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">testing</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>primaryTopic</IRI>
+        <IRI>#primaryTopic</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">The primary topic of some page or document.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>primaryTopic</IRI>
+        <IRI>#primaryTopic</IRI>
         <AbbreviatedIRI>foaf:</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>primaryTopic</IRI>
+        <IRI>#primaryTopic</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">primary topic</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="vs:term_status"/>
-        <IRI>primaryTopic</IRI>
+        <IRI>#primaryTopic</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">stable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>publications</IRI>
+        <IRI>#publications</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">A link to the publications of this person.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>publications</IRI>
+        <IRI>#publications</IRI>
         <AbbreviatedIRI>foaf:</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>publications</IRI>
+        <IRI>#publications</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">publications</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="vs:term_status"/>
-        <IRI>publications</IRI>
+        <IRI>#publications</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">testing</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>schoolHomepage</IRI>
+        <IRI>#schoolHomepage</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">A homepage of a school attended by the person.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>schoolHomepage</IRI>
+        <IRI>#schoolHomepage</IRI>
         <AbbreviatedIRI>foaf:</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>schoolHomepage</IRI>
+        <IRI>#schoolHomepage</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">schoolHomepage</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="vs:term_status"/>
-        <IRI>schoolHomepage</IRI>
+        <IRI>#schoolHomepage</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">testing</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>sha1</IRI>
+        <IRI>#sha1</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">A sha1sum hash, in hex.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>sha1</IRI>
+        <IRI>#sha1</IRI>
         <AbbreviatedIRI>foaf:</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>sha1</IRI>
+        <IRI>#sha1</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">sha1sum (hex)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="vs:term_status"/>
-        <IRI>sha1</IRI>
+        <IRI>#sha1</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">unstable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>skypeID</IRI>
+        <IRI>#skypeID</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">A Skype ID</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>skypeID</IRI>
+        <IRI>#skypeID</IRI>
         <AbbreviatedIRI>foaf:</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>skypeID</IRI>
+        <IRI>#skypeID</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Skype ID</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="vs:term_status"/>
-        <IRI>skypeID</IRI>
+        <IRI>#skypeID</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">testing</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>status</IRI>
+        <IRI>#status</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">A string expressing what the user is happy for the general public (normally) to know about their current activity.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>status</IRI>
+        <IRI>#status</IRI>
         <AbbreviatedIRI>foaf:</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>status</IRI>
+        <IRI>#status</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">status</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="vs:term_status"/>
-        <IRI>status</IRI>
+        <IRI>#status</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">unstable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>surname</IRI>
+        <IRI>#surname</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">The surname of some person.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>surname</IRI>
+        <IRI>#surname</IRI>
         <AbbreviatedIRI>foaf:</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>surname</IRI>
+        <IRI>#surname</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Surname</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="vs:term_status"/>
-        <IRI>surname</IRI>
+        <IRI>#surname</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">archaic</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>theme</IRI>
+        <IRI>#theme</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">A theme.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>theme</IRI>
+        <IRI>#theme</IRI>
         <AbbreviatedIRI>foaf:</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>theme</IRI>
+        <IRI>#theme</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">theme</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="vs:term_status"/>
-        <IRI>theme</IRI>
+        <IRI>#theme</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">archaic</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>thumbnail</IRI>
+        <IRI>#thumbnail</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">A derived thumbnail image.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>thumbnail</IRI>
+        <IRI>#thumbnail</IRI>
         <AbbreviatedIRI>foaf:</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>thumbnail</IRI>
+        <IRI>#thumbnail</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">thumbnail</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="vs:term_status"/>
-        <IRI>thumbnail</IRI>
+        <IRI>#thumbnail</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">testing</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>tipjar</IRI>
+        <IRI>#tipjar</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">A tipjar document for this agent, describing means for payment and reward.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>tipjar</IRI>
+        <IRI>#tipjar</IRI>
         <AbbreviatedIRI>foaf:</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>tipjar</IRI>
+        <IRI>#tipjar</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">tipjar</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="vs:term_status"/>
-        <IRI>tipjar</IRI>
+        <IRI>#tipjar</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">testing</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>title</IRI>
+        <IRI>#title</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Title (Mr, Mrs, Ms, Dr. etc)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>title</IRI>
+        <IRI>#title</IRI>
         <AbbreviatedIRI>foaf:</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>title</IRI>
+        <IRI>#title</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">title</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="vs:term_status"/>
-        <IRI>title</IRI>
+        <IRI>#title</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">testing</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>topic</IRI>
+        <IRI>#topic</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">A topic of some page or document.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>topic</IRI>
+        <IRI>#topic</IRI>
         <AbbreviatedIRI>foaf:</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>topic</IRI>
+        <IRI>#topic</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">topic</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="vs:term_status"/>
-        <IRI>topic</IRI>
+        <IRI>#topic</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">testing</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>topic_interest</IRI>
+        <IRI>#topic_interest</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">A thing of interest to this person.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>topic_interest</IRI>
+        <IRI>#topic_interest</IRI>
         <AbbreviatedIRI>foaf:</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>topic_interest</IRI>
+        <IRI>#topic_interest</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">topic_interest</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="vs:term_status"/>
-        <IRI>topic_interest</IRI>
+        <IRI>#topic_interest</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">testing</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>weblog</IRI>
+        <IRI>#weblog</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">A weblog of some thing (whether person, group, company etc.).</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>weblog</IRI>
+        <IRI>#weblog</IRI>
         <AbbreviatedIRI>foaf:</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>weblog</IRI>
+        <IRI>#weblog</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">weblog</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="vs:term_status"/>
-        <IRI>weblog</IRI>
+        <IRI>#weblog</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">stable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>workInfoHomepage</IRI>
+        <IRI>#workInfoHomepage</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">A work info homepage of some person; a page about their work for some organization.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>workInfoHomepage</IRI>
+        <IRI>#workInfoHomepage</IRI>
         <AbbreviatedIRI>foaf:</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>workInfoHomepage</IRI>
+        <IRI>#workInfoHomepage</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">work info homepage</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="vs:term_status"/>
-        <IRI>workInfoHomepage</IRI>
+        <IRI>#workInfoHomepage</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">testing</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>workplaceHomepage</IRI>
+        <IRI>#workplaceHomepage</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">A workplace homepage of some person; the homepage of an organization they work for.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>workplaceHomepage</IRI>
+        <IRI>#workplaceHomepage</IRI>
         <AbbreviatedIRI>foaf:</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>workplaceHomepage</IRI>
+        <IRI>#workplaceHomepage</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">workplace homepage</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="vs:term_status"/>
-        <IRI>workplaceHomepage</IRI>
+        <IRI>#workplaceHomepage</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">testing</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>yahooChatID</IRI>
+        <IRI>#yahooChatID</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">A Yahoo chat ID</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>yahooChatID</IRI>
+        <IRI>#yahooChatID</IRI>
         <AbbreviatedIRI>foaf:</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>yahooChatID</IRI>
+        <IRI>#yahooChatID</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Yahoo chat ID</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="vs:term_status"/>
-        <IRI>yahooChatID</IRI>
+        <IRI>#yahooChatID</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">testing</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -2412,22 +2592,12 @@
         <AbbreviatedIRI>owl:Thing</AbbreviatedIRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Thing</Literal>
     </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Spatial Thing</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.w3.org/2004/02/skos/core#Concept</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Concept</Literal>
-    </AnnotationAssertion>
     <SubAnnotationPropertyOf>
-        <AnnotationProperty IRI="name"/>
+        <AnnotationProperty IRI="#name"/>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
     </SubAnnotationPropertyOf>
     <AnnotationPropertyDomain>
-        <AnnotationProperty IRI="name"/>
+        <AnnotationProperty IRI="#name"/>
         <AbbreviatedIRI>owl:Thing</AbbreviatedIRI>
     </AnnotationPropertyDomain>
 </Ontology>
