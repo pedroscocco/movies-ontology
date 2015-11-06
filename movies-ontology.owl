@@ -417,13 +417,6 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Agent"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#nationality"/>
-            <Class IRI="#Country"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Brazil"/>
         <Class IRI="#Country"/>
     </SubClassOf>
@@ -667,13 +660,6 @@
         <NamedIndividual IRI="#Spider-Man"/>
     </ClassAssertion>
     <ClassAssertion>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#nationality"/>
-            <Class IRI="#United_States"/>
-        </ObjectSomeValuesFrom>
-        <NamedIndividual IRI="#Spider-Man"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#Movie"/>
         <NamedIndividual IRI="#Spider-Man_1"/>
     </ClassAssertion>
@@ -682,14 +668,14 @@
         <NamedIndividual IRI="#Spider-Man_2"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Movie"/>
-        <NamedIndividual IRI="#Spider-Man_3"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#nationality"/>
             <Class IRI="#United_States"/>
         </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#Spider-Man_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
         <NamedIndividual IRI="#Spider-Man_3"/>
     </ClassAssertion>
     <ClassAssertion>
