@@ -37,64 +37,22 @@
         <Class IRI="#Actor"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Agent"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Brazil"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Comedy_Movie"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Country"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Creative_Work"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Director"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Drama_Movie"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#England"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Franchise"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Movie"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Organization"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Person"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Producer"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Production_Company"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Romance_Movie"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Screenwriter"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Series"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#United_States"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#account"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#accountServiceHomepage"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#acted_by"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#acted_in"/>
@@ -121,6 +79,9 @@
         <ObjectProperty IRI="#directed"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#directed_by"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#focus"/>
     </Declaration>
     <Declaration>
@@ -128,18 +89,6 @@
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#has"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#has_actor"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#has_director"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#has_producer"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#has_screenwriter"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#holdsAccount"/>
@@ -208,6 +157,9 @@
         <ObjectProperty IRI="#produced"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#produced_by"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#publications"/>
     </Declaration>
     <Declaration>
@@ -236,6 +188,9 @@
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#workplaceHomepage"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#writen_by"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#wrote"/>
@@ -405,131 +360,41 @@
     <Declaration>
         <AnnotationProperty abbreviatedIRI="wot:src_assurance"/>
     </Declaration>
-    <SubClassOf>
-        <Class IRI="#Actor"/>
-        <Class IRI="#Person"/>
-    </SubClassOf>
-    <SubClassOf>
+    <EquivalentClasses>
         <Class IRI="#Actor"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#acted_in"/>
             <Class IRI="#Movie"/>
         </ObjectSomeValuesFrom>
-    </SubClassOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Director"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#directed"/>
+            <Class IRI="#Movie"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
     <SubClassOf>
-        <Class IRI="#Brazil"/>
-        <Class IRI="#Country"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Comedy_Movie"/>
-        <Class IRI="#Movie"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Country"/>
-        <DataSomeValuesFrom>
-            <DataProperty IRI="#name"/>
-            <Datatype abbreviatedIRI="xsd:string"/>
-        </DataSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Creative_Work"/>
-        <DataSomeValuesFrom>
-            <DataProperty IRI="#name"/>
-            <Datatype abbreviatedIRI="xsd:string"/>
-        </DataSomeValuesFrom>
+        <Class IRI="#Actor"/>
+        <Class IRI="#Person"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Director"/>
         <Class IRI="#Person"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Director"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#directed"/>
-            <Class IRI="#Movie"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Drama_Movie"/>
-        <Class IRI="#Movie"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#England"/>
-        <Class IRI="#Country"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Franchise"/>
-        <Class IRI="#Creative_Work"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Franchise"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#has"/>
-            <ObjectUnionOf>
-                <Class IRI="#Movie"/>
-                <Class IRI="#Series"/>
-            </ObjectUnionOf>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Movie"/>
-        <Class IRI="#Creative_Work"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Movie"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#has_actor"/>
+            <ObjectProperty IRI="#acted_by"/>
             <Class IRI="#Actor"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Movie"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#has_director"/>
+            <ObjectProperty IRI="#directed_by"/>
             <Class IRI="#Director"/>
         </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Movie"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#has_producer"/>
-            <Class IRI="#Producer"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Movie"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#has_screenwriter"/>
-            <Class IRI="#Screenwriter"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Movie"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#maker"/>
-            <Class IRI="#Production_Company"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Movie"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#nationality"/>
-            <Class IRI="#Country"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Movie"/>
-        <DataSomeValuesFrom>
-            <DataProperty IRI="#box_office"/>
-            <Datatype abbreviatedIRI="xsd:int"/>
-        </DataSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Movie"/>
-        <DataSomeValuesFrom>
-            <DataProperty IRI="#budget"/>
-            <Datatype abbreviatedIRI="xsd:int"/>
-        </DataSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Movie"/>
@@ -537,21 +402,6 @@
             <DataProperty IRI="#release_year"/>
             <Datatype abbreviatedIRI="xsd:int"/>
         </DataSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Organization"/>
-        <Class IRI="#Agent"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Organization"/>
-        <DataSomeValuesFrom>
-            <DataProperty IRI="#name"/>
-            <Datatype abbreviatedIRI="xsd:string"/>
-        </DataSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Person"/>
-        <Class IRI="#Agent"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Person"/>
@@ -567,76 +417,8 @@
             <Datatype abbreviatedIRI="xsd:string"/>
         </DataExactCardinality>
     </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Producer"/>
-        <Class IRI="#Person"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Producer"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#produced"/>
-            <Class IRI="#Movie"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Production_Company"/>
-        <Class IRI="#Organization"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Production_Company"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#has"/>
-            <Class IRI="#Creative_Work"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Romance_Movie"/>
-        <Class IRI="#Movie"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Screenwriter"/>
-        <Class IRI="#Person"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Screenwriter"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#wrote"/>
-            <Class IRI="#Movie"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Series"/>
-        <Class IRI="#Creative_Work"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Series"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#has"/>
-            <Class IRI="#Movie"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#United_States"/>
-        <Class IRI="#Country"/>
-    </SubClassOf>
-    <DisjointClasses>
-        <Class IRI="#Agent"/>
-        <Class IRI="#Creative_Work"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="#Franchise"/>
-        <Class IRI="#Movie"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="#Franchise"/>
-        <Class IRI="#Series"/>
-    </DisjointClasses>
     <DisjointClasses>
         <Class IRI="#Movie"/>
-        <Class IRI="#Series"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="#Organization"/>
         <Class IRI="#Person"/>
     </DisjointClasses>
     <ClassAssertion>
@@ -656,10 +438,6 @@
         <NamedIndividual IRI="#Sam_Raimi"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Series"/>
-        <NamedIndividual IRI="#Spider-Man"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#Movie"/>
         <NamedIndividual IRI="#Spider-Man_1"/>
     </ClassAssertion>
@@ -668,23 +446,8 @@
         <NamedIndividual IRI="#Spider-Man_2"/>
     </ClassAssertion>
     <ClassAssertion>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#nationality"/>
-            <Class IRI="#United_States"/>
-        </ObjectSomeValuesFrom>
-        <NamedIndividual IRI="#Spider-Man_2"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#Movie"/>
         <NamedIndividual IRI="#Spider-Man_3"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Franchise"/>
-        <NamedIndividual IRI="#Spider_Man"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Series"/>
-        <NamedIndividual IRI="#The_Amazing_Spider_Man"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Movie"/>
@@ -700,13 +463,6 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Actor"/>
-        <NamedIndividual IRI="#Tobey_Maguire"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#nationality"/>
-            <Class IRI="#United_States"/>
-        </ObjectSomeValuesFrom>
         <NamedIndividual IRI="#Tobey_Maguire"/>
     </ClassAssertion>
     <ObjectPropertyAssertion>
@@ -834,6 +590,10 @@
         <NamedIndividual IRI="#Tobey_Maguire"/>
         <NamedIndividual IRI="#Spider-Man_3"/>
     </ObjectPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#acted_by"/>
+        <ObjectProperty IRI="#maker"/>
+    </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#acted_in"/>
         <ObjectProperty IRI="#made"/>
@@ -847,19 +607,7 @@
         <ObjectProperty IRI="#made"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="#has_actor"/>
-        <ObjectProperty IRI="#maker"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#has_director"/>
-        <ObjectProperty IRI="#maker"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#has_producer"/>
-        <ObjectProperty IRI="#maker"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#has_screenwriter"/>
+        <ObjectProperty IRI="#directed_by"/>
         <ObjectProperty IRI="#maker"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
@@ -895,6 +643,10 @@
         <ObjectProperty IRI="#made"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
+        <ObjectProperty IRI="#produced_by"/>
+        <ObjectProperty IRI="#maker"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
         <ObjectProperty IRI="#skypeID"/>
         <ObjectProperty IRI="#nick"/>
     </SubObjectPropertyOf>
@@ -907,6 +659,10 @@
         <ObjectProperty IRI="#page"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
+        <ObjectProperty IRI="#writen_by"/>
+        <ObjectProperty IRI="#maker"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
         <ObjectProperty IRI="#wrote"/>
         <ObjectProperty IRI="#made"/>
     </SubObjectPropertyOf>
@@ -915,8 +671,8 @@
         <ObjectProperty IRI="#nick"/>
     </SubObjectPropertyOf>
     <InverseObjectProperties>
-        <ObjectProperty IRI="#has_actor"/>
         <ObjectProperty IRI="#acted_in"/>
+        <ObjectProperty IRI="#acted_by"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
         <ObjectProperty IRI="#belongs_to"/>
@@ -927,16 +683,8 @@
         <ObjectProperty IRI="#depicts"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
-        <ObjectProperty IRI="#has_director"/>
         <ObjectProperty IRI="#directed"/>
-    </InverseObjectProperties>
-    <InverseObjectProperties>
-        <ObjectProperty IRI="#produced"/>
-        <ObjectProperty IRI="#has_producer"/>
-    </InverseObjectProperties>
-    <InverseObjectProperties>
-        <ObjectProperty IRI="#wrote"/>
-        <ObjectProperty IRI="#has_screenwriter"/>
+        <ObjectProperty IRI="#directed_by"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
         <ObjectProperty IRI="#primaryTopic"/>
@@ -949,6 +697,14 @@
     <InverseObjectProperties>
         <ObjectProperty IRI="#page"/>
         <ObjectProperty IRI="#topic"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#produced"/>
+        <ObjectProperty IRI="#produced_by"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#wrote"/>
+        <ObjectProperty IRI="#writen_by"/>
     </InverseObjectProperties>
     <FunctionalObjectProperty>
         <ObjectProperty IRI="#primaryTopic"/>
@@ -990,16 +746,12 @@
         <ObjectProperty IRI="#yahooChatID"/>
     </InverseFunctionalObjectProperty>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#account"/>
-        <Class IRI="#Agent"/>
+        <ObjectProperty IRI="#acted_by"/>
+        <Class IRI="#Movie"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#acted_in"/>
         <Class IRI="#Actor"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#aimChatID"/>
-        <Class IRI="#Agent"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#belongs_to"/>
@@ -1018,6 +770,10 @@
         <Class IRI="#Director"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="#directed_by"/>
+        <Class IRI="#Movie"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty IRI="#fundedBy"/>
         <Class abbreviatedIRI="owl:Thing"/>
     </ObjectPropertyDomain>
@@ -1026,48 +782,16 @@
         <Class abbreviatedIRI="owl:Thing"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#has_actor"/>
-        <Class IRI="#Movie"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#has_director"/>
-        <Class IRI="#Movie"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#has_producer"/>
-        <Class IRI="#Movie"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#has_screenwriter"/>
-        <Class IRI="#Movie"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#holdsAccount"/>
-        <Class IRI="#Agent"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
         <ObjectProperty IRI="#homepage"/>
         <Class abbreviatedIRI="owl:Thing"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#icqChatID"/>
-        <Class IRI="#Agent"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#img"/>
         <Class IRI="#Person"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#interest"/>
-        <Class IRI="#Agent"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
         <ObjectProperty IRI="#isPrimaryTopicOf"/>
         <Class abbreviatedIRI="owl:Thing"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#jabberID"/>
-        <Class IRI="#Agent"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#knows"/>
@@ -1078,32 +802,12 @@
         <Class abbreviatedIRI="owl:Thing"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#made"/>
-        <Class IRI="#Agent"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
         <ObjectProperty IRI="#maker"/>
         <Class abbreviatedIRI="owl:Thing"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#mbox"/>
-        <Class IRI="#Agent"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#mbox_sha1sum"/>
-        <Class IRI="#Agent"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#msnChatID"/>
-        <Class IRI="#Agent"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
         <ObjectProperty IRI="#nationality"/>
         <Class abbreviatedIRI="owl:Thing"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#openid"/>
-        <Class IRI="#Agent"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#page"/>
@@ -1114,8 +818,8 @@
         <Class IRI="#Person"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#produced"/>
-        <Class IRI="#Producer"/>
+        <ObjectProperty IRI="#produced_by"/>
+        <Class IRI="#Movie"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#publications"/>
@@ -1126,24 +830,8 @@
         <Class IRI="#Person"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#skypeID"/>
-        <Class IRI="#Agent"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
         <ObjectProperty IRI="#theme"/>
         <Class abbreviatedIRI="owl:Thing"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#tipjar"/>
-        <Class IRI="#Agent"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#topic_interest"/>
-        <Class IRI="#Agent"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#weblog"/>
-        <Class IRI="#Agent"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#workInfoHomepage"/>
@@ -1154,13 +842,13 @@
         <Class IRI="#Person"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#wrote"/>
-        <Class IRI="#Screenwriter"/>
+        <ObjectProperty IRI="#writen_by"/>
+        <Class IRI="#Movie"/>
     </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#yahooChatID"/>
-        <Class IRI="#Agent"/>
-    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#acted_by"/>
+        <Class IRI="#Actor"/>
+    </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#acted_in"/>
         <Class IRI="#Movie"/>
@@ -1182,6 +870,10 @@
         <Class IRI="#Movie"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
+        <ObjectProperty IRI="#directed_by"/>
+        <Class IRI="#Director"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
         <ObjectProperty IRI="#focus"/>
         <Class abbreviatedIRI="owl:Thing"/>
     </ObjectPropertyRange>
@@ -1192,22 +884,6 @@
     <ObjectPropertyRange>
         <ObjectProperty IRI="#has"/>
         <Class abbreviatedIRI="owl:Thing"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#has_actor"/>
-        <Class IRI="#Actor"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#has_director"/>
-        <Class IRI="#Director"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#has_producer"/>
-        <Class IRI="#Producer"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#has_screenwriter"/>
-        <Class IRI="#Screenwriter"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#knows"/>
@@ -1222,20 +898,8 @@
         <Class abbreviatedIRI="owl:Thing"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#maker"/>
-        <Class IRI="#Agent"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
         <ObjectProperty IRI="#mbox"/>
         <Class abbreviatedIRI="owl:Thing"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#member"/>
-        <Class IRI="#Agent"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#nationality"/>
-        <Class IRI="#Country"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#pastProject"/>
@@ -1275,14 +939,6 @@
         <DataProperty IRI="#gender"/>
     </FunctionalDataProperty>
     <DataPropertyDomain>
-        <DataProperty IRI="#age"/>
-        <Class IRI="#Agent"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#birthday"/>
-        <Class IRI="#Agent"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
         <DataProperty IRI="#familyName"/>
         <Class IRI="#Person"/>
     </DataPropertyDomain>
@@ -1299,10 +955,6 @@
         <Class IRI="#Person"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#gender"/>
-        <Class IRI="#Agent"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
         <DataProperty IRI="#lastName"/>
         <Class IRI="#Person"/>
     </DataPropertyDomain>
@@ -1317,10 +969,6 @@
     <DataPropertyDomain>
         <DataProperty IRI="#release_year"/>
         <Class IRI="#Movie"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#status"/>
-        <Class IRI="#Agent"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#surname"/>
@@ -1418,41 +1066,6 @@
         <DataProperty IRI="#yahooChatID"/>
         <Datatype abbreviatedIRI="rdfs:Literal"/>
     </DataPropertyRange>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Agent</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">An agent (eg. person, group, software or physical artifact).</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Agent</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Agent</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="vs:term_status"/>
-        <IRI>#Agent</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">stable</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Organization</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">An organization.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>#Organization</IRI>
-        <AbbreviatedIRI>foaf:</AbbreviatedIRI>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Organization</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Organization</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="vs:term_status"/>
-        <IRI>#Organization</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">stable</Literal>
-    </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Person</IRI>
