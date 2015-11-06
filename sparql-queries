@@ -1,0 +1,12 @@
+SELECT ?actors
+	WHERE { ?actors onto:acted_in onto:movie_name }
+
+SELECT ?movies
+	WHERE { ?movies onto:has_director onto:director_name }
+
+SELECT ?movies
+	WHERE { ?movies onto:has_actor onto:actor_name }
+
+SELECT ?movies
+	WHERE { ?movies onto:has_actor onto:actor_name_1;
+			onto:has_actor onto:actor_name_2 }
