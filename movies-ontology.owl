@@ -295,7 +295,22 @@
         <DataProperty IRI="#yahooChatID"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#A_Dark_Adapted_Eye"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#A_Hazard_of_Hearts"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#A_Nightmare_on_Elm_Street"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#A_Pattern_of_Roses"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#A_Room_with_a_View"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#A_Therapy"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Alice_Through_the_Looking_Glass"/>
@@ -316,10 +331,25 @@
         <NamedIndividual IRI="#Benny_and_Joon"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Big_Fish"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Black_Mass"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Blow"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Brown_Bears_Wedding"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Burton_and_Taylor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Butter"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Carnivale"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Charles_Fleischer"/>
@@ -331,10 +361,19 @@
         <NamedIndividual IRI="#Chocolat"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Cinderella"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Conversations_with_Other_Women"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Corpse_Bride"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Cry-Baby"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dancing_Queen"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Dark_Shadows"/>
@@ -355,10 +394,25 @@
         <NamedIndividual IRI="#Edward_Scissorhands"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Enid"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fatal_Deception_Mrs._Lee_Harvey_Oswald"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Fear_and_Loathing_in_Las_Vegas"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Fight_Club"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Finding_Neverland"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Football"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Francesco"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Freddys_Dead_The_Final_Nightmare"/>
@@ -367,7 +421,28 @@
         <NamedIndividual IRI="#From_Hell"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Getting_It_Right"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Great_Expectations"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hamlet"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Happily_Ever_After"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Harry_Potter_and_the_Deathly_Hallows_Part_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Harry_Potter_and_the_Deathly_Hallows_Part_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Harry_Potter_and_the_Half_Blood_Prince"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Harry_Potter_and_the_Order_of_the_Phoenix"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Heather_Langenkamp"/>
@@ -376,10 +451,16 @@
         <NamedIndividual IRI="#Helena_Bonham_Carter"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Howards_End"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Into_the_Woods"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Jack_and_Jill"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Jeremy_Hardy_Gives_Good_Sex"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Joe_Unger"/>
@@ -391,16 +472,46 @@
         <NamedIndividual IRI="#Johnny_Depp"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Keep_the_Aspidistra_Flying"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#L.A._Without_a_Map"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Lady_Jane"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lemony_Snickets_A_Series_of_Unfortunate_Events"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Les_Misérables"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Leslie_Hoffman"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Live_from_Baghdad"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#London_Fields"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Lucky_Them"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Magnificent_7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Margarets_Museum"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mary_Shelleys_Frankenstein"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Maurice"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mighty_Aphrodite"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Mortdecai"/>
@@ -410,6 +521,12 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Nick_of_Time"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Night_Will_Fall"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Novocaine"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Once_Upon_a_Time_in_Mexico"/>
@@ -430,7 +547,13 @@
         <NamedIndividual IRI="#Pirates_of_the_Caribbean_The_Curse_of_the_Black_Pearl"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Planet_of_the_Apes"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Platoon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Portraits_chinois"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Private_Resort"/>
@@ -448,7 +571,16 @@
         <NamedIndividual IRI="#Ronee_Blakley"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Salting_the_Battlefield"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Secret_Window"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Six_Minutes_with_Ludwig"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sixty_Six"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Sleepy_Hollow"/>
@@ -457,7 +589,16 @@
         <NamedIndividual IRI="#Slow_Burn"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Suffragette"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Sweeney_Todd_The_Demon_Barber_of_Fleet_Street"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sweet_Revenge"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Terminator_Salvation"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#The_Astronauts_Wife"/>
@@ -466,7 +607,22 @@
         <NamedIndividual IRI="#The_Brave"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#The_Early_Life_of_Beatrix_Potter"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#The_Gruffalo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#The_Gruffalos_Child"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#The_Heart_of_Me"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#The_Imaginarium_of_Doctor_Parnassus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#The_Kings_Speech"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#The_Libertine"/>
@@ -478,25 +634,64 @@
         <NamedIndividual IRI="#The_Man_Who_Cried"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#The_Mask"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#The_Nearly_Complete_and_Utter_History_of_Everything"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#The_Ninth_Gate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#The_Petticoat_Expeditions"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#The_Rum_Diary"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#The_Theory_of_Flight"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#The_Tourist"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#The_Wings_of_the_Dove"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#The_Young_and_Prodigious_Spivet"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Till_Human_Voices_Wake_Us"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Toast"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Transcendence"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Turks_and_Caicos"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Tusk"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Twelfth_Night_Or_What_You_Will"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wallace_and_Gromit_The_Curse_of_the_Were_Rabbit"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Wes_Craven"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Whats_Eating_Gilbert_Grape"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Where_Angels_Fear_to_Tread"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Women_Talking_Dirty"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Yoga_Hosers"/>
@@ -591,7 +786,27 @@
     </DisjointClasses>
     <ClassAssertion>
         <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#A_Dark_Adapted_Eye"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#A_Hazard_of_Hearts"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
         <NamedIndividual IRI="#A_Nightmare_on_Elm_Street"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#A_Pattern_of_Roses"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#A_Room_with_a_View"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#A_Therapy"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Movie"/>
@@ -619,11 +834,31 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#Big_Fish"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
         <NamedIndividual IRI="#Black_Mass"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Movie"/>
         <NamedIndividual IRI="#Blow"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#Brown_Bears_Wedding"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#Burton_and_Taylor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#Butter"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#Carnivale"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Actor"/>
@@ -639,11 +874,23 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#Cinderella"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#Conversations_with_Other_Women"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
         <NamedIndividual IRI="#Corpse_Bride"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Movie"/>
         <NamedIndividual IRI="#Cry-Baby"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#Dancing_Queen"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Movie"/>
@@ -671,11 +918,31 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#Enid"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#Fatal_Deception_Mrs._Lee_Harvey_Oswald"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
         <NamedIndividual IRI="#Fear_and_Loathing_in_Las_Vegas"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#Fight_Club"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
         <NamedIndividual IRI="#Finding_Neverland"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#Football"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#Francesco"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Movie"/>
@@ -687,7 +954,35 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#Getting_It_Right"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#Great_Expectations"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#Hamlet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
         <NamedIndividual IRI="#Happily_Ever_After"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#Harry_Potter_and_the_Deathly_Hallows_Part_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#Harry_Potter_and_the_Deathly_Hallows_Part_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#Harry_Potter_and_the_Half_Blood_Prince"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#Harry_Potter_and_the_Order_of_the_Phoenix"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Actor"/>
@@ -699,11 +994,19 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#Howards_End"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
         <NamedIndividual IRI="#Into_the_Woods"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Movie"/>
         <NamedIndividual IRI="#Jack_and_Jill"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#Jeremy_Hardy_Gives_Good_Sex"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Actor"/>
@@ -719,11 +1022,31 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#Keep_the_Aspidistra_Flying"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
         <NamedIndividual IRI="#L.A._Without_a_Map"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#Lady_Jane"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#Lemony_Snickets_A_Series_of_Unfortunate_Events"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#Les_Misérables"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Actor"/>
         <NamedIndividual IRI="#Leslie_Hoffman"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#Live_from_Baghdad"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Movie"/>
@@ -732,6 +1055,26 @@
     <ClassAssertion>
         <Class IRI="#Movie"/>
         <NamedIndividual IRI="#Lucky_Them"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#Magnificent_7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#Margarets_Museum"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#Mary_Shelleys_Frankenstein"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#Maurice"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#Mighty_Aphrodite"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Movie"/>
@@ -744,6 +1087,14 @@
     <ClassAssertion>
         <Class IRI="#Movie"/>
         <NamedIndividual IRI="#Nick_of_Time"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#Night_Will_Fall"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#Novocaine"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Movie"/>
@@ -771,7 +1122,15 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#Planet_of_the_Apes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
         <NamedIndividual IRI="#Platoon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#Portraits_chinois"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Movie"/>
@@ -795,7 +1154,19 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#Salting_the_Battlefield"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
         <NamedIndividual IRI="#Secret_Window"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#Six_Minutes_with_Ludwig"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#Sixty_Six"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Movie"/>
@@ -807,7 +1178,19 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#Suffragette"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
         <NamedIndividual IRI="#Sweeney_Todd_The_Demon_Barber_of_Fleet_Street"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#Sweet_Revenge"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#Terminator_Salvation"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Movie"/>
@@ -819,7 +1202,27 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#The_Early_Life_of_Beatrix_Potter"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#The_Gruffalo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#The_Gruffalos_Child"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#The_Heart_of_Me"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
         <NamedIndividual IRI="#The_Imaginarium_of_Doctor_Parnassus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#The_Kings_Speech"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Movie"/>
@@ -835,7 +1238,19 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#The_Mask"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#The_Nearly_Complete_and_Utter_History_of_Everything"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
         <NamedIndividual IRI="#The_Ninth_Gate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#The_Petticoat_Expeditions"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Movie"/>
@@ -843,7 +1258,27 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#The_Theory_of_Flight"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
         <NamedIndividual IRI="#The_Tourist"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#The_Wings_of_the_Dove"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#The_Young_and_Prodigious_Spivet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#Till_Human_Voices_Wake_Us"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#Toast"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Movie"/>
@@ -851,7 +1286,19 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#Turks_and_Caicos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
         <NamedIndividual IRI="#Tusk"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#Twelfth_Night_Or_What_You_Will"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#Wallace_and_Gromit_The_Curse_of_the_Were_Rabbit"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Director"/>
@@ -860,6 +1307,14 @@
     <ClassAssertion>
         <Class IRI="#Movie"/>
         <NamedIndividual IRI="#Whats_Eating_Gilbert_Grape"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#Where_Angels_Fear_to_Tread"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#Women_Talking_Dirty"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Movie"/>
@@ -931,8 +1386,33 @@
     </ObjectPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#release_year"/>
+        <NamedIndividual IRI="#A_Dark_Adapted_Eye"/>
+        <Literal datatypeIRI="&xsd;int">1994</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#release_year"/>
+        <NamedIndividual IRI="#A_Hazard_of_Hearts"/>
+        <Literal datatypeIRI="&xsd;int">1987</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#release_year"/>
         <NamedIndividual IRI="#A_Nightmare_on_Elm_Street"/>
         <Literal datatypeIRI="&xsd;int">1984</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#release_year"/>
+        <NamedIndividual IRI="#A_Pattern_of_Roses"/>
+        <Literal datatypeIRI="&xsd;int">1983</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#release_year"/>
+        <NamedIndividual IRI="#A_Room_with_a_View"/>
+        <Literal datatypeIRI="&xsd;int">1985</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#release_year"/>
+        <NamedIndividual IRI="#A_Therapy"/>
+        <Literal datatypeIRI="&xsd;int">2012</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#release_year"/>
@@ -971,6 +1451,11 @@
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#release_year"/>
+        <NamedIndividual IRI="#Big_Fish"/>
+        <Literal datatypeIRI="&xsd;int">2003</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#release_year"/>
         <NamedIndividual IRI="#Black_Mass"/>
         <Literal datatypeIRI="&xsd;int">2015</Literal>
     </DataPropertyAssertion>
@@ -978,6 +1463,26 @@
         <DataProperty IRI="#release_year"/>
         <NamedIndividual IRI="#Blow"/>
         <Literal datatypeIRI="&xsd;int">2001</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#release_year"/>
+        <NamedIndividual IRI="#Brown_Bears_Wedding"/>
+        <Literal datatypeIRI="&xsd;int">1991</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#release_year"/>
+        <NamedIndividual IRI="#Burton_and_Taylor"/>
+        <Literal datatypeIRI="&xsd;int">2013</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#release_year"/>
+        <NamedIndividual IRI="#Butter"/>
+        <Literal datatypeIRI="&xsd;int">1994</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#release_year"/>
+        <NamedIndividual IRI="#Carnivale"/>
+        <Literal datatypeIRI="&xsd;int">2000</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#familyName"/>
@@ -1001,6 +1506,16 @@
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#release_year"/>
+        <NamedIndividual IRI="#Cinderella"/>
+        <Literal datatypeIRI="&xsd;int">2015</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#release_year"/>
+        <NamedIndividual IRI="#Conversations_with_Other_Women"/>
+        <Literal datatypeIRI="&xsd;int">2005</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#release_year"/>
         <NamedIndividual IRI="#Corpse_Bride"/>
         <Literal datatypeIRI="&xsd;int">2005</Literal>
     </DataPropertyAssertion>
@@ -1008,6 +1523,11 @@
         <DataProperty IRI="#release_year"/>
         <NamedIndividual IRI="#Cry-Baby"/>
         <Literal datatypeIRI="&xsd;int">1990</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#release_year"/>
+        <NamedIndividual IRI="#Dancing_Queen"/>
+        <Literal datatypeIRI="&xsd;int">1993</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#release_year"/>
@@ -1041,13 +1561,38 @@
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#release_year"/>
+        <NamedIndividual IRI="#Enid"/>
+        <Literal datatypeIRI="&xsd;int">2009</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#release_year"/>
+        <NamedIndividual IRI="#Fatal_Deception_Mrs._Lee_Harvey_Oswald"/>
+        <Literal datatypeIRI="&xsd;int">1994</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#release_year"/>
         <NamedIndividual IRI="#Fear_and_Loathing_in_Las_Vegas"/>
         <Literal datatypeIRI="&xsd;int">1998</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#release_year"/>
+        <NamedIndividual IRI="#Fight_Club"/>
+        <Literal datatypeIRI="&xsd;int">1999</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#release_year"/>
         <NamedIndividual IRI="#Finding_Neverland"/>
         <Literal datatypeIRI="&xsd;int">2004</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#release_year"/>
+        <NamedIndividual IRI="#Football"/>
+        <Literal datatypeIRI="&xsd;int">2001</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#release_year"/>
+        <NamedIndividual IRI="#Francesco"/>
+        <Literal datatypeIRI="&xsd;int">1989</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#release_year"/>
@@ -1061,8 +1606,43 @@
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#release_year"/>
+        <NamedIndividual IRI="#Getting_It_Right"/>
+        <Literal datatypeIRI="&xsd;int">1989</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#release_year"/>
+        <NamedIndividual IRI="#Great_Expectations"/>
+        <Literal datatypeIRI="&xsd;int">2012</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#release_year"/>
+        <NamedIndividual IRI="#Hamlet"/>
+        <Literal datatypeIRI="&xsd;int">1990</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#release_year"/>
         <NamedIndividual IRI="#Happily_Ever_After"/>
         <Literal datatypeIRI="&xsd;int">2004</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#release_year"/>
+        <NamedIndividual IRI="#Harry_Potter_and_the_Deathly_Hallows_Part_1"/>
+        <Literal datatypeIRI="&xsd;int">2010</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#release_year"/>
+        <NamedIndividual IRI="#Harry_Potter_and_the_Deathly_Hallows_Part_2"/>
+        <Literal datatypeIRI="&xsd;int">2011</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#release_year"/>
+        <NamedIndividual IRI="#Harry_Potter_and_the_Half_Blood_Prince"/>
+        <Literal datatypeIRI="&xsd;int">2009</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#release_year"/>
+        <NamedIndividual IRI="#Harry_Potter_and_the_Order_of_the_Phoenix"/>
+        <Literal datatypeIRI="&xsd;int">2007</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#familyName"/>
@@ -1086,6 +1666,11 @@
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#release_year"/>
+        <NamedIndividual IRI="#Howards_End"/>
+        <Literal datatypeIRI="&xsd;int">1992</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#release_year"/>
         <NamedIndividual IRI="#Into_the_Woods"/>
         <Literal datatypeIRI="&xsd;int">2014</Literal>
     </DataPropertyAssertion>
@@ -1093,6 +1678,11 @@
         <DataProperty IRI="#release_year"/>
         <NamedIndividual IRI="#Jack_and_Jill"/>
         <Literal datatypeIRI="&xsd;int">2011</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#release_year"/>
+        <NamedIndividual IRI="#Jeremy_Hardy_Gives_Good_Sex"/>
+        <Literal datatypeIRI="&xsd;int">1995</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#familyName"/>
@@ -1126,8 +1716,28 @@
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#release_year"/>
+        <NamedIndividual IRI="#Keep_the_Aspidistra_Flying"/>
+        <Literal datatypeIRI="&xsd;int">1997</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#release_year"/>
         <NamedIndividual IRI="#L.A._Without_a_Map"/>
         <Literal datatypeIRI="&xsd;int">1998</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#release_year"/>
+        <NamedIndividual IRI="#Lady_Jane"/>
+        <Literal datatypeIRI="&xsd;int">1986</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#release_year"/>
+        <NamedIndividual IRI="#Lemony_Snickets_A_Series_of_Unfortunate_Events"/>
+        <Literal datatypeIRI="&xsd;int">2004</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#release_year"/>
+        <NamedIndividual IRI="#Les_Misérables"/>
+        <Literal datatypeIRI="&xsd;int">2012</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#familyName"/>
@@ -1141,6 +1751,11 @@
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#release_year"/>
+        <NamedIndividual IRI="#Live_from_Baghdad"/>
+        <Literal datatypeIRI="&xsd;int">2002</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#release_year"/>
         <NamedIndividual IRI="#London_Fields"/>
         <Literal datatypeIRI="&xsd;int">2015</Literal>
     </DataPropertyAssertion>
@@ -1148,6 +1763,31 @@
         <DataProperty IRI="#release_year"/>
         <NamedIndividual IRI="#Lucky_Them"/>
         <Literal datatypeIRI="&xsd;int">2013</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#release_year"/>
+        <NamedIndividual IRI="#Magnificent_7"/>
+        <Literal datatypeIRI="&xsd;int">2005</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#release_year"/>
+        <NamedIndividual IRI="#Margarets_Museum"/>
+        <Literal datatypeIRI="&xsd;int">1995</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#release_year"/>
+        <NamedIndividual IRI="#Mary_Shelleys_Frankenstein"/>
+        <Literal datatypeIRI="&xsd;int">1994</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#release_year"/>
+        <NamedIndividual IRI="#Maurice"/>
+        <Literal datatypeIRI="&xsd;int">1987</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#release_year"/>
+        <NamedIndividual IRI="#Mighty_Aphrodite"/>
+        <Literal datatypeIRI="&xsd;int">1995</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#release_year"/>
@@ -1168,6 +1808,16 @@
         <DataProperty IRI="#release_year"/>
         <NamedIndividual IRI="#Nick_of_Time"/>
         <Literal datatypeIRI="&xsd;int">1995</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#release_year"/>
+        <NamedIndividual IRI="#Night_Will_Fall"/>
+        <Literal datatypeIRI="&xsd;int">2014</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#release_year"/>
+        <NamedIndividual IRI="#Novocaine"/>
+        <Literal datatypeIRI="&xsd;int">2001</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#release_year"/>
@@ -1201,8 +1851,18 @@
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#release_year"/>
+        <NamedIndividual IRI="#Planet_of_the_Apes"/>
+        <Literal datatypeIRI="&xsd;int">2001</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#release_year"/>
         <NamedIndividual IRI="#Platoon"/>
         <Literal datatypeIRI="&xsd;int">1986</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#release_year"/>
+        <NamedIndividual IRI="#Portraits_chinois"/>
+        <Literal datatypeIRI="&xsd;int">1996</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#release_year"/>
@@ -1241,8 +1901,23 @@
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#release_year"/>
+        <NamedIndividual IRI="#Salting_the_Battlefield"/>
+        <Literal datatypeIRI="&xsd;int">2014</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#release_year"/>
         <NamedIndividual IRI="#Secret_Window"/>
         <Literal datatypeIRI="&xsd;int">2004</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#release_year"/>
+        <NamedIndividual IRI="#Six_Minutes_with_Ludwig"/>
+        <Literal datatypeIRI="&xsd;int">1988</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#release_year"/>
+        <NamedIndividual IRI="#Sixty_Six"/>
+        <Literal datatypeIRI="&xsd;int">2006</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#release_year"/>
@@ -1256,8 +1931,23 @@
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#release_year"/>
+        <NamedIndividual IRI="#Suffragette"/>
+        <Literal datatypeIRI="&xsd;int">2015</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#release_year"/>
         <NamedIndividual IRI="#Sweeney_Todd_The_Demon_Barber_of_Fleet_Street"/>
         <Literal datatypeIRI="&xsd;int">2007</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#release_year"/>
+        <NamedIndividual IRI="#Sweet_Revenge"/>
+        <Literal datatypeIRI="&xsd;int">1998</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#release_year"/>
+        <NamedIndividual IRI="#Terminator_Salvation"/>
+        <Literal datatypeIRI="&xsd;int">2009</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#release_year"/>
@@ -1271,8 +1961,33 @@
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#release_year"/>
+        <NamedIndividual IRI="#The_Early_Life_of_Beatrix_Potter"/>
+        <Literal datatypeIRI="&xsd;int">1990</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#release_year"/>
+        <NamedIndividual IRI="#The_Gruffalo"/>
+        <Literal datatypeIRI="&xsd;int">2009</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#release_year"/>
+        <NamedIndividual IRI="#The_Gruffalos_Child"/>
+        <Literal datatypeIRI="&xsd;int">2011</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#release_year"/>
+        <NamedIndividual IRI="#The_Heart_of_Me"/>
+        <Literal datatypeIRI="&xsd;int">2002</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#release_year"/>
         <NamedIndividual IRI="#The_Imaginarium_of_Doctor_Parnassus"/>
         <Literal datatypeIRI="&xsd;int">2009</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#release_year"/>
+        <NamedIndividual IRI="#The_Kings_Speech"/>
+        <Literal datatypeIRI="&xsd;int">2010</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#release_year"/>
@@ -1291,8 +2006,23 @@
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#release_year"/>
+        <NamedIndividual IRI="#The_Mask"/>
+        <Literal datatypeIRI="&xsd;int">1988</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#release_year"/>
+        <NamedIndividual IRI="#The_Nearly_Complete_and_Utter_History_of_Everything"/>
+        <Literal datatypeIRI="&xsd;int">1999</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#release_year"/>
         <NamedIndividual IRI="#The_Ninth_Gate"/>
         <Literal datatypeIRI="&xsd;int">1999</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#release_year"/>
+        <NamedIndividual IRI="#The_Petticoat_Expeditions"/>
+        <Literal datatypeIRI="&xsd;int">1997</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#release_year"/>
@@ -1301,7 +2031,32 @@
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#release_year"/>
+        <NamedIndividual IRI="#The_Theory_of_Flight"/>
+        <Literal datatypeIRI="&xsd;int">1998</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#release_year"/>
         <NamedIndividual IRI="#The_Tourist"/>
+        <Literal datatypeIRI="&xsd;int">2010</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#release_year"/>
+        <NamedIndividual IRI="#The_Wings_of_the_Dove"/>
+        <Literal datatypeIRI="&xsd;int">1997</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#release_year"/>
+        <NamedIndividual IRI="#The_Young_and_Prodigious_Spivet"/>
+        <Literal datatypeIRI="&xsd;int">2013</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#release_year"/>
+        <NamedIndividual IRI="#Till_Human_Voices_Wake_Us"/>
+        <Literal datatypeIRI="&xsd;int">2002</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#release_year"/>
+        <NamedIndividual IRI="#Toast"/>
         <Literal datatypeIRI="&xsd;int">2010</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
@@ -1311,8 +2066,23 @@
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#release_year"/>
+        <NamedIndividual IRI="#Turks_and_Caicos"/>
+        <Literal datatypeIRI="&xsd;int">2014</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#release_year"/>
         <NamedIndividual IRI="#Tusk"/>
         <Literal datatypeIRI="&xsd;int">2014</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#release_year"/>
+        <NamedIndividual IRI="#Twelfth_Night_Or_What_You_Will"/>
+        <Literal datatypeIRI="&xsd;int">1996</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#release_year"/>
+        <NamedIndividual IRI="#Wallace_and_Gromit_The_Curse_of_the_Were_Rabbit"/>
+        <Literal datatypeIRI="&xsd;int">2005</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#familyName"/>
@@ -1328,6 +2098,16 @@
         <DataProperty IRI="#release_year"/>
         <NamedIndividual IRI="#Whats_Eating_Gilbert_Grape"/>
         <Literal datatypeIRI="&xsd;int">1993</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#release_year"/>
+        <NamedIndividual IRI="#Where_Angels_Fear_to_Tread"/>
+        <Literal datatypeIRI="&xsd;int">1991</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#release_year"/>
+        <NamedIndividual IRI="#Women_Talking_Dirty"/>
+        <Literal datatypeIRI="&xsd;int">1999</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#release_year"/>
