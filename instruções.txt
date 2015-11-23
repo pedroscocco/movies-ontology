@@ -1,0 +1,85 @@
+FORMATO DA LISTA DO IMDB:
+
+Carter, Graydon		A Tribute to Arianna Huffington: Newhouse Mirror Awards (2009)  [Himself]
+			Alfie (2004)  [Wes]  <24>
+			Arbitrage (2012)  [James Mayfield]  <9>
+			Celebrity: Dominick Dunne (2008)  [Himself]
+			Contradiction (2013)  [Himself]
+			Dominick Dunne: Les crimes de la jet set (2007) (TV)  [Himself]
+			Guilty Pleasure: The Dominick Dunne Story (2002) (TV)  [Himself]
+			Hey Bartender (2013)
+			...
+
+SOBRENOME, NOME 	FILME1 (ANO) [PAPEL]
+			FILME2 (ANO) [PAPEL]
+			FILME3 (ANO) [PAPEL]
+			FILMEPARATV1 (ANO) (TV) [PAPEL]
+			VIDEOGAME1  (ANO) (VG) [PAPEL]
+			...
+
+Temos uma lista com todos os filmes no seguinte formato:
+
+Edward Scissorhands (1990)
+Hamlet (1990)
+Freddy's Dead: The Final Nightmare (1991)
+Where Angels Fear to Tread (1991)
+Howards End (1992)
+Arizona Dream (1992)
+Batman Returns (1992)
+Benny & Joon (1993)
+...
+
+FILME1 (ANO)
+FILME2 (ANO)
+FILME3 (ANO)
+FILME4 (ANO)
+FILME5 (ANO)
+...
+
+Para parsear:
+
+percorrer a lista de filmes, para cada filme (que começa exatamente igual a da lista e não tem (V) ou (TV) ou (VG) na mesma linha, pois as linhas que tem essas siglas são filmes, videogames e filmes para TV que não queremos), adicionar:
+
+    <Declaration>
+        <NamedIndividual IRI="#A_Nightmare_on_Elm_Street"/>
+    </Declaration>
+
+    <ClassAssertion>
+        <Class IRI="#Movie"/>
+        <NamedIndividual IRI="#A_Nightmare_on_Elm_Street"/>
+    </ClassAssertion>
+
+    <DataPropertyAssertion>
+        <DataProperty IRI="#release_year"/>
+        <NamedIndividual IRI="#A_Nightmare_on_Elm_Street"/>
+        <Literal datatypeIRI="&xsd;int">1984</Literal>
+    </DataPropertyAssertion>
+
+procurar todas as ocorrências desse filme no arquivo do IMDB e pra cada ocorrência encontrar o ator/atriz a qual ela se refere e adicionar:
+
+    <Declaration>
+        <NamedIndividual IRI="#Johnny_Depp"/>
+    </Declaration>
+
+    <ClassAssertion>
+        <Class IRI="#Actor"/>
+        <NamedIndividual IRI="#Johnny_Depp"/>
+    </ClassAssertion>
+
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#acted_in"/>
+        <NamedIndividual IRI="#Johnny_Depp"/>
+        <NamedIndividual IRI="#A_Nightmare_on_Elm_Street"/>
+    </ObjectPropertyAssertion>
+
+    <DataPropertyAssertion>
+        <DataProperty IRI="#familyName"/>
+        <NamedIndividual IRI="#Johnny_Depp"/>
+        <Literal datatypeIRI="&xsd;string">Depp</Literal>
+    </DataPropertyAssertion>
+
+    <DataPropertyAssertion>
+        <DataProperty IRI="#firstName"/>
+        <NamedIndividual IRI="#Johnny_Depp"/>
+        <Literal datatypeIRI="&xsd;string">Johny</Literal>
+    </DataPropertyAssertion>
