@@ -42,7 +42,7 @@ ONLY_MOVIE = /\t\t\t(.* \(([0-9]{4})(\/[IVX]*)?\))/
 
 movies = Set.new File.read('filmes.txt').each_line.to_a.map(&:strip)
 
-file = File.open('actresses.list', 'r')
+file = File.open('actors.list', 'r')
 dest = File.open('result.txt', 'a')
 current_actor = nil
 movie = nil
