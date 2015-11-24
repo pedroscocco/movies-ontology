@@ -9,4 +9,10 @@ SELECT ?movies
 
 SELECT ?movies
 	WHERE { ?movies onto:has_actor onto:actor_name_1;
-			onto:has_actor onto:actor_name_2 }
+					onto:has_actor onto:actor_name_2 }
+
+SELECT ?director_name
+	WHERE { ?director_name onto:directed ?movie_name;
+			?movie_name onto:has_actor onto:actor_name_1;
+						onto:has_actor onto:actor_name_2}
+						
