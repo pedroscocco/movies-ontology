@@ -1,4 +1,7 @@
 require 'set'
+require 'i18n'
+
+I18n.config.available_locales = :en
 
 @actor_printed = false
 def get_actor_name actor
@@ -40,13 +43,17 @@ end
 ACTOR_MOVIE = /^([^\t]*)\t*(.* \(([0-9]{4})(\/[IVX]*)?\))/
 ONLY_MOVIE = /\t\t\t(.* \(([0-9]{4})(\/[IVX]*)?\))/
 
-movies = Set.new File.read('filmes.txt').each_line.to_a.map(&:strip)
+movies = Set.new File.read('filmes.txt').each_line.to_a.map { |e| I18n.transliterate(e.strip)}
 
 file = File.open('actors.list', 'r')
 dest = File.open('result.txt', 'a')
 current_actor = nil
 movie = nil
+i = 0
 file.each do |line|
+  break if i > 10000
+  i += 1
+  I18n.transliterate(line)
   next if line.length <= 2
   line.force_encoding('ISO-8859-1')
   if line[0] == "\t"
