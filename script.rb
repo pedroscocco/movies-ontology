@@ -36,7 +36,9 @@ end
 
 def print_owl actor, movie
   full_name = print_actor actor
-  puts "<ObjectPropertyAssertion>\n  <ObjectProperty IRI=\"#acted_in\"/>\n  <NamedIndividual IRI=\"##{full_name}\"/>\n  <NamedIndividual IRI=\"##{movie.gsub(" ", "_")}\"/>\n</ObjectPropertyAssertion>\n\n"
+  movie = movie.rpartition(' ')[0]
+  movie.gsub!(" ", "_")
+  puts "<ObjectPropertyAssertion>\n  <ObjectProperty IRI=\"#acted_in\"/>\n  <NamedIndividual IRI=\"##{full_name}\"/>\n  <NamedIndividual IRI=\"##{movie}\"/>\n</ObjectPropertyAssertion>\n\n"
 end
 
 
