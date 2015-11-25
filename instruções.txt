@@ -83,3 +83,32 @@ procurar todas as ocorrências desse filme no arquivo do IMDB e pra cada ocorrê
         <NamedIndividual IRI="#Johnny_Depp"/>
         <Literal datatypeIRI="&xsd;string">Johny</Literal>
     </DataPropertyAssertion>
+
+formato dos diretores
+
+    <Declaration>
+        <NamedIndividual IRI="#NOMECOMPLETO"/>
+    </Declaration>
+
+    <ClassAssertion>
+        <Class IRI="#Director"/>
+        <NamedIndividual IRI="#NOMECOMPLETO"/>
+    </ClassAssertion>
+
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#directed"/>
+        <NamedIndividual IRI="#NOMECOMPLETO"/>
+        <NamedIndividual IRI="#FILMEQUEDIRIGIU"/>
+    </ObjectPropertyAssertion>
+
+    <DataPropertyAssertion>
+        <DataProperty IRI="#familyName"/>
+        <NamedIndividual IRI="#NOMECOMPLETO"/>
+        <Literal datatypeIRI="&xsd;string">SOBRENOME</Literal>
+    </DataPropertyAssertion>
+
+    <DataPropertyAssertion>
+        <DataProperty IRI="#firstName"/>
+        <NamedIndividual IRI="#NOMECOMPLETO"/>
+        <Literal datatypeIRI="&xsd;string">PRIMEIRONOME</Literal>
+    </DataPropertyAssertion>
