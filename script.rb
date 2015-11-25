@@ -25,13 +25,15 @@ def print_actor actor
   else
     full_name = first
   end
+  full_name.squeeze!
+  full_name.gsub!("&", "and")
   return full_name if @actor_printed
   @actor_printed = true
 
-  puts "<Declaration>\n  <NamedIndividual IRI=\"##{full_name}\"/>\n</Declaration>\n\n"
-  puts "<ClassAssertion>\n  <Class IRI=\"#Director\"/>\n  <NamedIndividual IRI=\"##{full_name}\"/>\n</ClassAssertion>\n\n"
-  puts "<DataPropertyAssertion>\n  <DataProperty IRI=\"#familyName\"/>\n  <NamedIndividual IRI=\"##{full_name}\"/>\n  <Literal datatypeIRI=\"&xsd;string\">#{family}</Literal>\n</DataPropertyAssertion>\n\n"  if !family.nil?
-  puts "<DataPropertyAssertion>\n  <DataProperty IRI=\"#firstName\"/>\n  <NamedIndividual IRI=\"##{full_name}\"/>\n  <Literal datatypeIRI=\"&xsd;string\">#{first}</Literal>\n</DataPropertyAssertion>\n\n"
+  puts "<Declaration>\n    <NamedIndividual IRI=\"##{full_name}\"/>\n</Declaration>\n\n"
+  puts "<ClassAssertion>\n    <Class IRI=\"#Actor\"/>\n    <NamedIndividual IRI=\"##{full_name}\"/>\n</ClassAssertion>\n\n"
+  puts "<DataPropertyAssertion>\n    <DataProperty IRI=\"#familyName\"/>\n    <NamedIndividual IRI=\"##{full_name}\"/>\n    <Literal datatypeIRI=\"&xsd;string\">#{family}</Literal>\n</DataPropertyAssertion>\n\n"  if !family.nil?
+  puts "<DataPropertyAssertion>\n    <DataProperty IRI=\"#firstName\"/>\n    <NamedIndividual IRI=\"##{full_name}\"/>\n    <Literal datatypeIRI=\"&xsd;string\">#{first}</Literal>\n</DataPropertyAssertion>\n\n"
   return full_name
 end
 
@@ -39,13 +41,14 @@ def print_owl actor, movie
   full_name = print_actor actor
   movie = movie.rpartition(' ')[0]
   movie.gsub!(" ", "_")
-  puts "<ObjectPropertyAssertion>\n  <ObjectProperty IRI=\"#directed\"/>\n  <NamedIndividual IRI=\"##{full_name}\"/>\n  <NamedIndividual IRI=\"##{movie}\"/>\n</ObjectPropertyAssertion>\n\n"
+  movie.gsub!("&", "and")
+  puts "<ObjectPropertyAssertion>\n    <ObjectProperty IRI=\"#directed\"/>\n    <NamedIndividual IRI=\"##{full_name}\"/>\n    <NamedIndividual IRI=\"##{movie}\"/>\n</ObjectPropertyAssertion>\n\n"
+  puts "<ObjectPropertyAssertion>\n    <ObjectProperty IRI=\"#directed_by\"/>\n    <NamedIndividual IRI=\"##{movie}\"/>\n    <NamedIndividual IRI=\"##{full_name}\"/>\n</ObjectPropertyAssertion>\n\n"
 end
 
 
 ACTOR_MOVIE = /^([^\t]*)\t*(.* \(([0-9]{4})(\/[IVX]*)?\))/
 ONLY_MOVIE = /\t\t\t(.* \(([0-9]{4})(\/[IVX]*)?\))/
-
 
 movies = Set.new File.read('filmes.txt').each_line.to_a.map(&:strip) # { |e| I18n.transliterate(e.strip)}
 
@@ -54,11 +57,11 @@ if !File.exist?('movies.owl')
   movies.each do |movie|
     match = movie.match(/(.*) \(([0-9]{4})(\/[IVX]*)?\)/)
     puts movie if match == nil
-    name = match[1].gsub(' ', '_')
+    name = match[1].gsub(' ', '_').gsub("&", "and")
     date = match[2]
-    movies_file.write("<Declaration>\n  <NamedIndividual IRI=\"##{name}\"/>\n</Declaration>\n\n")
-    movies_file.write("<ClassAssertion>\n  <Class IRI=\"#Movie\"/>\n  <NamedIndividual IRI=\"##{name}\"/>\n</ClassAssertion>\n\n")
-    movies_file.write("<DataPropertyAssertion>\n  <DataProperty IRI=\"#release_year\"/>\n  <NamedIndividual IRI=\"##{name}\"/>\n  <Literal datatypeIRI=\"&xsd;int\">#{date}</Literal>\n</DataPropertyAssertion>\n\n")
+    movies_file.write("<Declaration>\n    <NamedIndividual IRI=\"##{name}\"/>\n</Declaration>\n\n")
+    movies_file.write("<ClassAssertion>\n    <Class IRI=\"#Movie\"/>\n  <NamedIndividual IRI=\"##{name}\"/>\n</ClassAssertion>\n\n")
+    movies_file.write("<DataPropertyAssertion>\n    <DataProperty IRI=\"#release_year\"/>\n    <NamedIndividual IRI=\"##{name}\"/>\n    <Literal datatypeIRI=\"&xsd;int\">#{date}</Literal>\n</DataPropertyAssertion>\n\n")
   end
 end
                  #actresses
