@@ -45,17 +45,27 @@ end
 ACTOR_MOVIE = /^([^\t]*)\t*(.* \(([0-9]{4})(\/[IVX]*)?\))/
 ONLY_MOVIE = /\t\t\t(.* \(([0-9]{4})(\/[IVX]*)?\))/
 
-movies = Set.new File.read('filmes.txt').each_line.to_a.map { |e| I18n.transliterate(e.strip)}
 
-file = File.open('actors.list', 'r')
-dest = File.open('result.txt', 'a')
+movies = Set.new File.read('filmes.txt').each_line.to_a.map(&:strip) # { |e| I18n.transliterate(e.strip)}
+
+if !File.exist?('movies.owl')
+  movies_file = File.open('movies.owl', 'a')
+  movies.each do |movie|
+    match = movie.match(/(.*) \(([0-9]{4})(\/[IVX]*)?\)/)
+    puts movie if match == nil
+    name = match[1].gsub(' ', '_')
+    date = match[2]
+    movies_file.write("<Declaration>\n  <NamedIndividual IRI=\"##{name}\"/>\n</Declaration>\n\n")
+    movies_file.write("<ClassAssertion>\n  <Class IRI=\"#Movie\"/>\n  <NamedIndividual IRI=\"##{name}\"/>\n</ClassAssertion>\n\n")
+    movies_file.write("<DataPropertyAssertion>\n  <DataProperty IRI=\"#release_year\"/>\n  <NamedIndividual IRI=\"##{name}\"/>\n  <Literal datatypeIRI=\"&xsd;int\">#{date}</Literal>\n</DataPropertyAssertion>\n\n")
+  end
+end
+                 #actresses
+file = File.open('actresses.list', 'r')
 current_actor = nil
 movie = nil
-i = 0
 file.each do |line|
-  break if i > 10000
-  i += 1
-  I18n.transliterate(line)
+  # I18n.transliterate(line)
   next if line.length <= 2
   line.force_encoding('ISO-8859-1')
   if line[0] == "\t"

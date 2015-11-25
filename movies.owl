@@ -1,0 +1,3360 @@
+<Declaration>
+  <NamedIndividual IRI="#﻿What's_Up,_Tiger_Lily?"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#﻿What's_Up,_Tiger_Lily?"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#﻿What's_Up,_Tiger_Lily?"/>
+  <Literal datatypeIRI="&xsd;int">1966</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Take_the_Money_and_Run"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Take_the_Money_and_Run"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Take_the_Money_and_Run"/>
+  <Literal datatypeIRI="&xsd;int">1969</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Bananas"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Bananas"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Bananas"/>
+  <Literal datatypeIRI="&xsd;int">1971</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Everything_You_Always_Wanted_to_Know_About_Sex*_(*But_Were_Afraid_to_Ask)"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Everything_You_Always_Wanted_to_Know_About_Sex*_(*But_Were_Afraid_to_Ask)"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Everything_You_Always_Wanted_to_Know_About_Sex*_(*But_Were_Afraid_to_Ask)"/>
+  <Literal datatypeIRI="&xsd;int">1972</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Sleeper"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Sleeper"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Sleeper"/>
+  <Literal datatypeIRI="&xsd;int">1973</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Love_and_Death"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Love_and_Death"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Love_and_Death"/>
+  <Literal datatypeIRI="&xsd;int">1975</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Annie_Hall"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Annie_Hall"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Annie_Hall"/>
+  <Literal datatypeIRI="&xsd;int">1977</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Interiors"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Interiors"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Interiors"/>
+  <Literal datatypeIRI="&xsd;int">1978</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Manhattan"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Manhattan"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Manhattan"/>
+  <Literal datatypeIRI="&xsd;int">1979</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Stardust_Memories"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Stardust_Memories"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Stardust_Memories"/>
+  <Literal datatypeIRI="&xsd;int">1980</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#A_Midsummer_Night's_Sex_Comedy"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#A_Midsummer_Night's_Sex_Comedy"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#A_Midsummer_Night's_Sex_Comedy"/>
+  <Literal datatypeIRI="&xsd;int">1982</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Zelig"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Zelig"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Zelig"/>
+  <Literal datatypeIRI="&xsd;int">1983</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Broadway_Danny_Rose"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Broadway_Danny_Rose"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Broadway_Danny_Rose"/>
+  <Literal datatypeIRI="&xsd;int">1984</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#A_Nightmare_on_Elm_Street"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#A_Nightmare_on_Elm_Street"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#A_Nightmare_on_Elm_Street"/>
+  <Literal datatypeIRI="&xsd;int">1984</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#The_Purple_Rose_of_Cairo"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#The_Purple_Rose_of_Cairo"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#The_Purple_Rose_of_Cairo"/>
+  <Literal datatypeIRI="&xsd;int">1985</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#A_Room_with_a_View"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#A_Room_with_a_View"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#A_Room_with_a_View"/>
+  <Literal datatypeIRI="&xsd;int">1985</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Private_Resort"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Private_Resort"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Private_Resort"/>
+  <Literal datatypeIRI="&xsd;int">1985</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Pee-wee's_Big_Adventure"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Pee-wee's_Big_Adventure"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Pee-wee's_Big_Adventure"/>
+  <Literal datatypeIRI="&xsd;int">1985</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Platoon"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Platoon"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Platoon"/>
+  <Literal datatypeIRI="&xsd;int">1986</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Lady_Jane"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Lady_Jane"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Lady_Jane"/>
+  <Literal datatypeIRI="&xsd;int">1986</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Hannah_and_Her_Sisters"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Hannah_and_Her_Sisters"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Hannah_and_Her_Sisters"/>
+  <Literal datatypeIRI="&xsd;int">1986</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Maurice"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Maurice"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Maurice"/>
+  <Literal datatypeIRI="&xsd;int">1987</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Radio_Days"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Radio_Days"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Radio_Days"/>
+  <Literal datatypeIRI="&xsd;int">1987</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#September"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#September"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#September"/>
+  <Literal datatypeIRI="&xsd;int">1987</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Another_Woman"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Another_Woman"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Another_Woman"/>
+  <Literal datatypeIRI="&xsd;int">1988</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Six_Minutes_with_Ludwig"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Six_Minutes_with_Ludwig"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Six_Minutes_with_Ludwig"/>
+  <Literal datatypeIRI="&xsd;int">1988</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Beetlejuice"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Beetlejuice"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Beetlejuice"/>
+  <Literal datatypeIRI="&xsd;int">1988</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Batman"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Batman"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Batman"/>
+  <Literal datatypeIRI="&xsd;int">1989</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Francesco"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Francesco"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Francesco"/>
+  <Literal datatypeIRI="&xsd;int">1989</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Getting_It_Right"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Getting_It_Right"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Getting_It_Right"/>
+  <Literal datatypeIRI="&xsd;int">1989</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#New_York_Stories"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#New_York_Stories"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#New_York_Stories"/>
+  <Literal datatypeIRI="&xsd;int">1989</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Crimes_and_Misdemeanors"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Crimes_and_Misdemeanors"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Crimes_and_Misdemeanors"/>
+  <Literal datatypeIRI="&xsd;int">1989</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Alice"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Alice"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Alice"/>
+  <Literal datatypeIRI="&xsd;int">1990</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Cry-Baby"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Cry-Baby"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Cry-Baby"/>
+  <Literal datatypeIRI="&xsd;int">1990</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Edward_Scissorhands"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Edward_Scissorhands"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Edward_Scissorhands"/>
+  <Literal datatypeIRI="&xsd;int">1990</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Hamlet"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Hamlet"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Hamlet"/>
+  <Literal datatypeIRI="&xsd;int">1990</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Las_edades_de_Lulú"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Las_edades_de_Lulú"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Las_edades_de_Lulú"/>
+  <Literal datatypeIRI="&xsd;int">1990</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Shadows_and_Fog"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Shadows_and_Fog"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Shadows_and_Fog"/>
+  <Literal datatypeIRI="&xsd;int">1991</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Freddy's_Dead:_The_Final_Nightmare"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Freddy's_Dead:_The_Final_Nightmare"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Freddy's_Dead:_The_Final_Nightmare"/>
+  <Literal datatypeIRI="&xsd;int">1991</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Where_Angels_Fear_to_Tread"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Where_Angels_Fear_to_Tread"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Where_Angels_Fear_to_Tread"/>
+  <Literal datatypeIRI="&xsd;int">1991</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#High_Heels"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#High_Heels"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#High_Heels"/>
+  <Literal datatypeIRI="&xsd;int">1991</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Howards_End"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Howards_End"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Howards_End"/>
+  <Literal datatypeIRI="&xsd;int">1992</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Arizona_Dream"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Arizona_Dream"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Arizona_Dream"/>
+  <Literal datatypeIRI="&xsd;int">1992</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Batman_Returns"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Batman_Returns"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Batman_Returns"/>
+  <Literal datatypeIRI="&xsd;int">1992</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Husbands_and_Wives"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Husbands_and_Wives"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Husbands_and_Wives"/>
+  <Literal datatypeIRI="&xsd;int">1992</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Jamón,_jamón"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Jamón,_jamón"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Jamón,_jamón"/>
+  <Literal datatypeIRI="&xsd;int">1992</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Benny_&_Joon"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Benny_&_Joon"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Benny_&_Joon"/>
+  <Literal datatypeIRI="&xsd;int">1993</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#What's_Eating_Gilbert_Grape"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#What's_Eating_Gilbert_Grape"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#What's_Eating_Gilbert_Grape"/>
+  <Literal datatypeIRI="&xsd;int">1993</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Manhattan_Murder_Mystery"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Manhattan_Murder_Mystery"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Manhattan_Murder_Mystery"/>
+  <Literal datatypeIRI="&xsd;int">1993</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Huevos_de_oro"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Huevos_de_oro"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Huevos_de_oro"/>
+  <Literal datatypeIRI="&xsd;int">1993</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#El_Amante_Bilingüe"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#El_Amante_Bilingüe"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#El_Amante_Bilingüe"/>
+  <Literal datatypeIRI="&xsd;int">1993</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Bullets_over_Broadway"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Bullets_over_Broadway"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Bullets_over_Broadway"/>
+  <Literal datatypeIRI="&xsd;int">1994</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Ed_Wood"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Ed_Wood"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Ed_Wood"/>
+  <Literal datatypeIRI="&xsd;int">1994</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Don_Juan_DeMarco"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Don_Juan_DeMarco"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Don_Juan_DeMarco"/>
+  <Literal datatypeIRI="&xsd;int">1994</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#North"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#North"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#North"/>
+  <Literal datatypeIRI="&xsd;int">1994</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Running_Out_of_Time"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Running_Out_of_Time"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Running_Out_of_Time"/>
+  <Literal datatypeIRI="&xsd;int">1994</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#El_detective_y_la_muerte"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#El_detective_y_la_muerte"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#El_detective_y_la_muerte"/>
+  <Literal datatypeIRI="&xsd;int">1994</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Dead_Man"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Dead_Man"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Dead_Man"/>
+  <Literal datatypeIRI="&xsd;int">1995</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Nick_of_Time"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Nick_of_Time"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Nick_of_Time"/>
+  <Literal datatypeIRI="&xsd;int">1995</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Mighty_Aphrodite"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Mighty_Aphrodite"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Mighty_Aphrodite"/>
+  <Literal datatypeIRI="&xsd;int">1995</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Margaret's_Museum"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Margaret's_Museum"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Margaret's_Museum"/>
+  <Literal datatypeIRI="&xsd;int">1995</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Just_Cause"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Just_Cause"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Just_Cause"/>
+  <Literal datatypeIRI="&xsd;int">1995</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Boca_a_boca"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Boca_a_boca"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Boca_a_boca"/>
+  <Literal datatypeIRI="&xsd;int">1995</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Twelfth_Night_or_What_You_Will"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Twelfth_Night_or_What_You_Will"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Twelfth_Night_or_What_You_Will"/>
+  <Literal datatypeIRI="&xsd;int">1996</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Portraits_chinois"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Portraits_chinois"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Portraits_chinois"/>
+  <Literal datatypeIRI="&xsd;int">1996</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#If_Lucy_Fell"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#If_Lucy_Fell"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#If_Lucy_Fell"/>
+  <Literal datatypeIRI="&xsd;int">1996</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Manny_&_Lo"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Manny_&_Lo"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Manny_&_Lo"/>
+  <Literal datatypeIRI="&xsd;int">1996</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Everyone_Says_I_Love_You"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Everyone_Says_I_Love_You"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Everyone_Says_I_Love_You"/>
+  <Literal datatypeIRI="&xsd;int">1996</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Éxtasis"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Éxtasis"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Éxtasis"/>
+  <Literal datatypeIRI="&xsd;int">1996</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Fall"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Fall"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Fall"/>
+  <Literal datatypeIRI="&xsd;int">1997</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Home_Alone_3"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Home_Alone_3"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Home_Alone_3"/>
+  <Literal datatypeIRI="&xsd;int">1997</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Donnie_Brasco"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Donnie_Brasco"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Donnie_Brasco"/>
+  <Literal datatypeIRI="&xsd;int">1997</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#The_Brave"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#The_Brave"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#The_Brave"/>
+  <Literal datatypeIRI="&xsd;int">1997</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#The_Petticoat_Expeditions"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#The_Petticoat_Expeditions"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#The_Petticoat_Expeditions"/>
+  <Literal datatypeIRI="&xsd;int">1997</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Keep_the_Aspidistra_Flying"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Keep_the_Aspidistra_Flying"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Keep_the_Aspidistra_Flying"/>
+  <Literal datatypeIRI="&xsd;int">1997</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#The_Wings_of_the_Dove"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#The_Wings_of_the_Dove"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#The_Wings_of_the_Dove"/>
+  <Literal datatypeIRI="&xsd;int">1997</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Mars_Attacks!"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Mars_Attacks!"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Mars_Attacks!"/>
+  <Literal datatypeIRI="&xsd;int">1997</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Deconstructing_Harry"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Deconstructing_Harry"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Deconstructing_Harry"/>
+  <Literal datatypeIRI="&xsd;int">1997</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Love_Can_Seriously_Damage_Your_Health"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Love_Can_Seriously_Damage_Your_Health"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Love_Can_Seriously_Damage_Your_Health"/>
+  <Literal datatypeIRI="&xsd;int">1997</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Airbag"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Airbag"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Airbag"/>
+  <Literal datatypeIRI="&xsd;int">1997</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Carne_trémula"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Carne_trémula"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Carne_trémula"/>
+  <Literal datatypeIRI="&xsd;int">1997</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Perdita_Durango"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Perdita_Durango"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Perdita_Durango"/>
+  <Literal datatypeIRI="&xsd;int">1997</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#The_Horse_Whisperer"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#The_Horse_Whisperer"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#The_Horse_Whisperer"/>
+  <Literal datatypeIRI="&xsd;int">1998</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Celebrity"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Celebrity"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Celebrity"/>
+  <Literal datatypeIRI="&xsd;int">1998</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Fear_and_Loathing_in_Las_Vegas"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Fear_and_Loathing_in_Las_Vegas"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Fear_and_Loathing_in_Las_Vegas"/>
+  <Literal datatypeIRI="&xsd;int">1998</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#L.A._Without_a_Map"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#L.A._Without_a_Map"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#L.A._Without_a_Map"/>
+  <Literal datatypeIRI="&xsd;int">1998</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#The_Theory_of_Flight"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#The_Theory_of_Flight"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#The_Theory_of_Flight"/>
+  <Literal datatypeIRI="&xsd;int">1998</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Torrente,_el_brazo_tonto_de_la_ley"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Torrente,_el_brazo_tonto_de_la_ley"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Torrente,_el_brazo_tonto_de_la_ley"/>
+  <Literal datatypeIRI="&xsd;int">1998</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#The_Ninth_Gate"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#The_Ninth_Gate"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#The_Ninth_Gate"/>
+  <Literal datatypeIRI="&xsd;int">1999</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#My_Brother_the_Pig"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#My_Brother_the_Pig"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#My_Brother_the_Pig"/>
+  <Literal datatypeIRI="&xsd;int">1999</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Sleepy_Hollow"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Sleepy_Hollow"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Sleepy_Hollow"/>
+  <Literal datatypeIRI="&xsd;int">1999</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#The_Astronaut's_Wife"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#The_Astronaut's_Wife"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#The_Astronaut's_Wife"/>
+  <Literal datatypeIRI="&xsd;int">1999</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Fight_Club"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Fight_Club"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Fight_Club"/>
+  <Literal datatypeIRI="&xsd;int">1999</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Women_Talking_Dirty"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Women_Talking_Dirty"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Women_Talking_Dirty"/>
+  <Literal datatypeIRI="&xsd;int">1999</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Sweet_and_Lowdown"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Sweet_and_Lowdown"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Sweet_and_Lowdown"/>
+  <Literal datatypeIRI="&xsd;int">1999</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Entre_las_piernas"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Entre_las_piernas"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Entre_las_piernas"/>
+  <Literal datatypeIRI="&xsd;int">1999</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Second_Skin"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Second_Skin"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Second_Skin"/>
+  <Literal datatypeIRI="&xsd;int">1999</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Washington_Wolves"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Washington_Wolves"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Washington_Wolves"/>
+  <Literal datatypeIRI="&xsd;int">1999</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Chocolat"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Chocolat"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Chocolat"/>
+  <Literal datatypeIRI="&xsd;int">2000</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Carnivale"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Carnivale"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Carnivale"/>
+  <Literal datatypeIRI="&xsd;int">2000</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Before_Night_Falls"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Before_Night_Falls"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Before_Night_Falls"/>
+  <Literal datatypeIRI="&xsd;int">2000</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#The_Man_Who_Cried"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#The_Man_Who_Cried"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#The_Man_Who_Cried"/>
+  <Literal datatypeIRI="&xsd;int">2000</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Small_Time_Crooks"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Small_Time_Crooks"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Small_Time_Crooks"/>
+  <Literal datatypeIRI="&xsd;int">2000</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Blow"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Blow"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Blow"/>
+  <Literal datatypeIRI="&xsd;int">2001</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#The_Man_Who_Wasn't_There"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#The_Man_Who_Wasn't_There"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#The_Man_Who_Wasn't_There"/>
+  <Literal datatypeIRI="&xsd;int">2001</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Ghost_World"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Ghost_World"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Ghost_World"/>
+  <Literal datatypeIRI="&xsd;int">2001</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#An_American_Rhapsody"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#An_American_Rhapsody"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#An_American_Rhapsody"/>
+  <Literal datatypeIRI="&xsd;int">2001</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#From_Hell"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#From_Hell"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#From_Hell"/>
+  <Literal datatypeIRI="&xsd;int">2001</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Planet_of_the_Apes"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Planet_of_the_Apes"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Planet_of_the_Apes"/>
+  <Literal datatypeIRI="&xsd;int">2001</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Novocaine"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Novocaine"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Novocaine"/>
+  <Literal datatypeIRI="&xsd;int">2001</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Football"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Football"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Football"/>
+  <Literal datatypeIRI="&xsd;int">2001</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#The_Curse_of_the_Jade_Scorpion"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#The_Curse_of_the_Jade_Scorpion"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#The_Curse_of_the_Jade_Scorpion"/>
+  <Literal datatypeIRI="&xsd;int">2001</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Don't_Tempt_Me"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Don't_Tempt_Me"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Don't_Tempt_Me"/>
+  <Literal datatypeIRI="&xsd;int">2001</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#The_Heart_of_Me"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#The_Heart_of_Me"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#The_Heart_of_Me"/>
+  <Literal datatypeIRI="&xsd;int">2002</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Eight_Legged_Freaks"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Eight_Legged_Freaks"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Eight_Legged_Freaks"/>
+  <Literal datatypeIRI="&xsd;int">2002</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Till_Human_Voices_Wake_Us"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Till_Human_Voices_Wake_Us"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Till_Human_Voices_Wake_Us"/>
+  <Literal datatypeIRI="&xsd;int">2002</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#The_Dancer_Upstairs"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#The_Dancer_Upstairs"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#The_Dancer_Upstairs"/>
+  <Literal datatypeIRI="&xsd;int">2002</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Mondays_in_the_Sun"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Mondays_in_the_Sun"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Mondays_in_the_Sun"/>
+  <Literal datatypeIRI="&xsd;int">2002</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Hollywood_Ending"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Hollywood_Ending"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Hollywood_Ending"/>
+  <Literal datatypeIRI="&xsd;int">2002</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Once_Upon_a_Time_in_Mexico"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Once_Upon_a_Time_in_Mexico"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Once_Upon_a_Time_in_Mexico"/>
+  <Literal datatypeIRI="&xsd;int">2003</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Lost_in_Translation"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Lost_in_Translation"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Lost_in_Translation"/>
+  <Literal datatypeIRI="&xsd;int">2003</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Girl_with_a_Pearl_Earring"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Girl_with_a_Pearl_Earring"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Girl_with_a_Pearl_Earring"/>
+  <Literal datatypeIRI="&xsd;int">2003</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Big_Fish"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Big_Fish"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Big_Fish"/>
+  <Literal datatypeIRI="&xsd;int">2003</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Pirates_of_the_Caribbean:_The_Curse_of_the_Black_Pearl"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Pirates_of_the_Caribbean:_The_Curse_of_the_Black_Pearl"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Pirates_of_the_Caribbean:_The_Curse_of_the_Black_Pearl"/>
+  <Literal datatypeIRI="&xsd;int">2003</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Anything_Else"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Anything_Else"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Anything_Else"/>
+  <Literal datatypeIRI="&xsd;int">2003</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#The_Perfect_Score"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#The_Perfect_Score"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#The_Perfect_Score"/>
+  <Literal datatypeIRI="&xsd;int">2004</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#A_Love_Song_for_Bobby_Long"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#A_Love_Song_for_Bobby_Long"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#A_Love_Song_for_Bobby_Long"/>
+  <Literal datatypeIRI="&xsd;int">2004</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#A_Good_Woman"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#A_Good_Woman"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#A_Good_Woman"/>
+  <Literal datatypeIRI="&xsd;int">2004</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#The_SpongeBob_SquarePants_Movie"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#The_SpongeBob_SquarePants_Movie"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#The_SpongeBob_SquarePants_Movie"/>
+  <Literal datatypeIRI="&xsd;int">2004</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#In_Good_Company"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#In_Good_Company"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#In_Good_Company"/>
+  <Literal datatypeIRI="&xsd;int">2004</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Secret_Window"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Secret_Window"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Secret_Window"/>
+  <Literal datatypeIRI="&xsd;int">2004</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Finding_Neverland"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Finding_Neverland"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Finding_Neverland"/>
+  <Literal datatypeIRI="&xsd;int">2004</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#The_Libertine"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#The_Libertine"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#The_Libertine"/>
+  <Literal datatypeIRI="&xsd;int">2004</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Lemony_Snicket's_A_Series_of_Unfortunate_Events"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Lemony_Snicket's_A_Series_of_Unfortunate_Events"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Lemony_Snicket's_A_Series_of_Unfortunate_Events"/>
+  <Literal datatypeIRI="&xsd;int">2004</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Melinda_and_Melinda"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Melinda_and_Melinda"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Melinda_and_Melinda"/>
+  <Literal datatypeIRI="&xsd;int">2004</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Collateral"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Collateral"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Collateral"/>
+  <Literal datatypeIRI="&xsd;int">2004</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#The_Sea_Inside"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#The_Sea_Inside"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#The_Sea_Inside"/>
+  <Literal datatypeIRI="&xsd;int">2004</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Conversations_with_Other_Women"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Conversations_with_Other_Women"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Conversations_with_Other_Women"/>
+  <Literal datatypeIRI="&xsd;int">2005</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#The_Island"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#The_Island"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#The_Island"/>
+  <Literal datatypeIRI="&xsd;int">2005</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Match_Point"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Match_Point"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Match_Point"/>
+  <Literal datatypeIRI="&xsd;int">2005</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Charlie_and_the_Chocolate_Factory"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Charlie_and_the_Chocolate_Factory"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Charlie_and_the_Chocolate_Factory"/>
+  <Literal datatypeIRI="&xsd;int">2005</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Corpse_Bride"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Corpse_Bride"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Corpse_Bride"/>
+  <Literal datatypeIRI="&xsd;int">2005</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Scoop"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Scoop"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Scoop"/>
+  <Literal datatypeIRI="&xsd;int">2006</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#The_Black_Dahlia"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#The_Black_Dahlia"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#The_Black_Dahlia"/>
+  <Literal datatypeIRI="&xsd;int">2006</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#The_Prestige"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#The_Prestige"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#The_Prestige"/>
+  <Literal datatypeIRI="&xsd;int">2006</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Pirates_of_the_Caribbean:_Dead_Man's_Chest"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Pirates_of_the_Caribbean:_Dead_Man's_Chest"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Pirates_of_the_Caribbean:_Dead_Man's_Chest"/>
+  <Literal datatypeIRI="&xsd;int">2006</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Sixty_Six"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Sixty_Six"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Sixty_Six"/>
+  <Literal datatypeIRI="&xsd;int">2006</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Goya's_Ghosts"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Goya's_Ghosts"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Goya's_Ghosts"/>
+  <Literal datatypeIRI="&xsd;int">2006</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Pirates_of_the_Caribbean:_At_World's_End"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Pirates_of_the_Caribbean:_At_World's_End"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Pirates_of_the_Caribbean:_At_World's_End"/>
+  <Literal datatypeIRI="&xsd;int">2007</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Sweeney_Todd:_The_Demon_Barber_of_Fleet_Street"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Sweeney_Todd:_The_Demon_Barber_of_Fleet_Street"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Sweeney_Todd:_The_Demon_Barber_of_Fleet_Street"/>
+  <Literal datatypeIRI="&xsd;int">2007</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Harry_Potter_and_the_Order_of_the_Phoenix"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Harry_Potter_and_the_Order_of_the_Phoenix"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Harry_Potter_and_the_Order_of_the_Phoenix"/>
+  <Literal datatypeIRI="&xsd;int">2007</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Cassandra's_Dream"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Cassandra's_Dream"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Cassandra's_Dream"/>
+  <Literal datatypeIRI="&xsd;int">2007</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#The_Nanny_Diaries"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#The_Nanny_Diaries"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#The_Nanny_Diaries"/>
+  <Literal datatypeIRI="&xsd;int">2007</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Love_in_the_Time_of_Cholera"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Love_in_the_Time_of_Cholera"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Love_in_the_Time_of_Cholera"/>
+  <Literal datatypeIRI="&xsd;int">2007</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#No_Country_for_Old_Men"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#No_Country_for_Old_Men"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#No_Country_for_Old_Men"/>
+  <Literal datatypeIRI="&xsd;int">2007</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#The_Other_Boleyn_Girl"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#The_Other_Boleyn_Girl"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#The_Other_Boleyn_Girl"/>
+  <Literal datatypeIRI="&xsd;int">2008</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Vicky_Cristina_Barcelona"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Vicky_Cristina_Barcelona"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Vicky_Cristina_Barcelona"/>
+  <Literal datatypeIRI="&xsd;int">2008</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#The_Spirit"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#The_Spirit"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#The_Spirit"/>
+  <Literal datatypeIRI="&xsd;int">2008</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#He's_Just_Not_That_Into_You"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#He's_Just_Not_That_Into_You"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#He's_Just_Not_That_Into_You"/>
+  <Literal datatypeIRI="&xsd;int">2009</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Public_Enemies"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Public_Enemies"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Public_Enemies"/>
+  <Literal datatypeIRI="&xsd;int">2009</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Harry_Potter_and_the_Half-Blood_Prince"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Harry_Potter_and_the_Half-Blood_Prince"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Harry_Potter_and_the_Half-Blood_Prince"/>
+  <Literal datatypeIRI="&xsd;int">2009</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#The_Imaginarium_of_Doctor_Parnassus"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#The_Imaginarium_of_Doctor_Parnassus"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#The_Imaginarium_of_Doctor_Parnassus"/>
+  <Literal datatypeIRI="&xsd;int">2009</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Terminator_Salvation"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Terminator_Salvation"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Terminator_Salvation"/>
+  <Literal datatypeIRI="&xsd;int">2009</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Whatever_Works"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Whatever_Works"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Whatever_Works"/>
+  <Literal datatypeIRI="&xsd;int">2009</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Iron_Man_2"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Iron_Man_2"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Iron_Man_2"/>
+  <Literal datatypeIRI="&xsd;int">2010</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Alice_in_Wonderland"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Alice_in_Wonderland"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Alice_in_Wonderland"/>
+  <Literal datatypeIRI="&xsd;int">2010</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#The_Tourist"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#The_Tourist"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#The_Tourist"/>
+  <Literal datatypeIRI="&xsd;int">2010</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#The_King's_Speech"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#The_King's_Speech"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#The_King's_Speech"/>
+  <Literal datatypeIRI="&xsd;int">2010</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#You_Will_Meet_a_Tall_Dark_Stranger"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#You_Will_Meet_a_Tall_Dark_Stranger"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#You_Will_Meet_a_Tall_Dark_Stranger"/>
+  <Literal datatypeIRI="&xsd;int">2010</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Biutiful"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Biutiful"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Biutiful"/>
+  <Literal datatypeIRI="&xsd;int">2010</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Eat_Pray_Love"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Eat_Pray_Love"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Eat_Pray_Love"/>
+  <Literal datatypeIRI="&xsd;int">2010</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Harry_Potter_and_the_Deathly_Hallows:_Part_1"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Harry_Potter_and_the_Deathly_Hallows:_Part_1"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Harry_Potter_and_the_Deathly_Hallows:_Part_1"/>
+  <Literal datatypeIRI="&xsd;int">2010</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Harry_Potter_and_the_Deathly_Hallows:_Part_2"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Harry_Potter_and_the_Deathly_Hallows:_Part_2"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Harry_Potter_and_the_Deathly_Hallows:_Part_2"/>
+  <Literal datatypeIRI="&xsd;int">2011</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Rango"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Rango"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Rango"/>
+  <Literal datatypeIRI="&xsd;int">2011</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#We_Bought_a_Zoo"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#We_Bought_a_Zoo"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#We_Bought_a_Zoo"/>
+  <Literal datatypeIRI="&xsd;int">2011</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Pirates_of_the_Caribbean:_On_Stranger_Tides"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Pirates_of_the_Caribbean:_On_Stranger_Tides"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Pirates_of_the_Caribbean:_On_Stranger_Tides"/>
+  <Literal datatypeIRI="&xsd;int">2011</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#The_Rum_Diary"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#The_Rum_Diary"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#The_Rum_Diary"/>
+  <Literal datatypeIRI="&xsd;int">2011</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Midnight_in_Paris"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Midnight_in_Paris"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Midnight_in_Paris"/>
+  <Literal datatypeIRI="&xsd;int">2011</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Jack_and_Jill"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Jack_and_Jill"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Jack_and_Jill"/>
+  <Literal datatypeIRI="&xsd;int">2011</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Hitchcock"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Hitchcock"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Hitchcock"/>
+  <Literal datatypeIRI="&xsd;int">2012</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#21_Jump_Street"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#21_Jump_Street"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#21_Jump_Street"/>
+  <Literal datatypeIRI="&xsd;int">2012</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#The_Avengers"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#The_Avengers"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#The_Avengers"/>
+  <Literal datatypeIRI="&xsd;int">2012</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Dark_Shadows"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Dark_Shadows"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Dark_Shadows"/>
+  <Literal datatypeIRI="&xsd;int">2012</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Great_Expectations"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Great_Expectations"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Great_Expectations"/>
+  <Literal datatypeIRI="&xsd;int">2012</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Les_Misérables"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Les_Misérables"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Les_Misérables"/>
+  <Literal datatypeIRI="&xsd;int">2012</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Frankenweenie"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Frankenweenie"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Frankenweenie"/>
+  <Literal datatypeIRI="&xsd;int">2012</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#To_Rome_with_Love"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#To_Rome_with_Love"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#To_Rome_with_Love"/>
+  <Literal datatypeIRI="&xsd;int">2012</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Sons_of_the_Clouds:_The_Last_Colony"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Sons_of_the_Clouds:_The_Last_Colony"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Sons_of_the_Clouds:_The_Last_Colony"/>
+  <Literal datatypeIRI="&xsd;int">2012</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Skyfall"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Skyfall"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Skyfall"/>
+  <Literal datatypeIRI="&xsd;int">2012</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#To_the_Wonder"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#To_the_Wonder"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#To_the_Wonder"/>
+  <Literal datatypeIRI="&xsd;int">2012</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Don_Jon"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Don_Jon"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Don_Jon"/>
+  <Literal datatypeIRI="&xsd;int">2013</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Under_the_Skin"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Under_the_Skin"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Under_the_Skin"/>
+  <Literal datatypeIRI="&xsd;int">2013</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Her"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Her"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Her"/>
+  <Literal datatypeIRI="&xsd;int">2013</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#The_Lone_Ranger"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#The_Lone_Ranger"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#The_Lone_Ranger"/>
+  <Literal datatypeIRI="&xsd;int">2013</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Lucky_Them"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Lucky_Them"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Lucky_Them"/>
+  <Literal datatypeIRI="&xsd;int">2013</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Blue_Jasmine"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Blue_Jasmine"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Blue_Jasmine"/>
+  <Literal datatypeIRI="&xsd;int">2013</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#The_Counselor"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#The_Counselor"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#The_Counselor"/>
+  <Literal datatypeIRI="&xsd;int">2013</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Alacrán_enamorado"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Alacrán_enamorado"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Alacrán_enamorado"/>
+  <Literal datatypeIRI="&xsd;int">2013</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#The_Young_and_Prodigious_T.S._Spivet"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#The_Young_and_Prodigious_T.S._Spivet"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#The_Young_and_Prodigious_T.S._Spivet"/>
+  <Literal datatypeIRI="&xsd;int">2013</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Transcendence"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Transcendence"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Transcendence"/>
+  <Literal datatypeIRI="&xsd;int">2014</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Tusk"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Tusk"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Tusk"/>
+  <Literal datatypeIRI="&xsd;int">2014</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Autómata"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Autómata"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Autómata"/>
+  <Literal datatypeIRI="&xsd;int">2014</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Captain_America:_The_Winter_Soldier"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Captain_America:_The_Winter_Soldier"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Captain_America:_The_Winter_Soldier"/>
+  <Literal datatypeIRI="&xsd;int">2014</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Chef"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Chef"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Chef"/>
+  <Literal datatypeIRI="&xsd;int">2014</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Lucy"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Lucy"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Lucy"/>
+  <Literal datatypeIRI="&xsd;int">2014</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Into_the_Woods"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Into_the_Woods"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Into_the_Woods"/>
+  <Literal datatypeIRI="&xsd;int">2014</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Magic_in_the_Moonlight"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Magic_in_the_Moonlight"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Magic_in_the_Moonlight"/>
+  <Literal datatypeIRI="&xsd;int">2014</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Mortdecai"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Mortdecai"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Mortdecai"/>
+  <Literal datatypeIRI="&xsd;int">2015</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Black_Mass"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Black_Mass"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Black_Mass"/>
+  <Literal datatypeIRI="&xsd;int">2015</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Avengers:_Age_of_Ultron"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Avengers:_Age_of_Ultron"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Avengers:_Age_of_Ultron"/>
+  <Literal datatypeIRI="&xsd;int">2015</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#London_Fields"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#London_Fields"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#London_Fields"/>
+  <Literal datatypeIRI="&xsd;int">2015</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Cinderella"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Cinderella"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Cinderella"/>
+  <Literal datatypeIRI="&xsd;int">2015</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Suffragette"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Suffragette"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Suffragette"/>
+  <Literal datatypeIRI="&xsd;int">2015</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Big_Eyes"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Big_Eyes"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Big_Eyes"/>
+  <Literal datatypeIRI="&xsd;int">2015</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Irrational_Man"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Irrational_Man"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Irrational_Man"/>
+  <Literal datatypeIRI="&xsd;int">2015</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#The_Gunman"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#The_Gunman"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#The_Gunman"/>
+  <Literal datatypeIRI="&xsd;int">2015</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#The_Last_Face"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#The_Last_Face"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#The_Last_Face"/>
+  <Literal datatypeIRI="&xsd;int">2015</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Hail,_Caesar!"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Hail,_Caesar!"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Hail,_Caesar!"/>
+  <Literal datatypeIRI="&xsd;int">2016</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#The_Jungle_Book"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#The_Jungle_Book"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#The_Jungle_Book"/>
+  <Literal datatypeIRI="&xsd;int">2016</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Sing"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Sing"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Sing"/>
+  <Literal datatypeIRI="&xsd;int">2016</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Captain_America:_Civil_War"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Captain_America:_Civil_War"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Captain_America:_Civil_War"/>
+  <Literal datatypeIRI="&xsd;int">2016</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Yoga_Hosers"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Yoga_Hosers"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Yoga_Hosers"/>
+  <Literal datatypeIRI="&xsd;int">2016</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Alice_Through_the_Looking_Glass"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Alice_Through_the_Looking_Glass"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Alice_Through_the_Looking_Glass"/>
+  <Literal datatypeIRI="&xsd;int">2016</Literal>
+</DataPropertyAssertion>
+
+<Declaration>
+  <NamedIndividual IRI="#Pirates_of_the_Caribbean:_Dead_Men_Tell_No_Tales"/>
+</Declaration>
+
+<ClassAssertion>
+  <Class IRI="#Movie"/>
+  <NamedIndividual IRI="#Pirates_of_the_Caribbean:_Dead_Men_Tell_No_Tales"/>
+</ClassAssertion>
+
+<DataPropertyAssertion>
+  <DataProperty IRI="#release_year"/>
+  <NamedIndividual IRI="#Pirates_of_the_Caribbean:_Dead_Men_Tell_No_Tales"/>
+  <Literal datatypeIRI="&xsd;int">2017</Literal>
+</DataPropertyAssertion>
+
