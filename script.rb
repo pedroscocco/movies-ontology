@@ -27,8 +27,9 @@ def print_actor actor
   end
   return full_name if @actor_printed
   @actor_printed = true
+
   puts "<Declaration>\n  <NamedIndividual IRI=\"##{full_name}\"/>\n</Declaration>\n\n"
-  puts "<ClassAssertion>\n  <Class IRI=\"#Actor\"/>\n  <NamedIndividual IRI=\"##{full_name}\"/>\n</ClassAssertion>\n\n"
+  puts "<ClassAssertion>\n  <Class IRI=\"#Director\"/>\n  <NamedIndividual IRI=\"##{full_name}\"/>\n</ClassAssertion>\n\n"
   puts "<DataPropertyAssertion>\n  <DataProperty IRI=\"#familyName\"/>\n  <NamedIndividual IRI=\"##{full_name}\"/>\n  <Literal datatypeIRI=\"&xsd;string\">#{family}</Literal>\n</DataPropertyAssertion>\n\n"  if !family.nil?
   puts "<DataPropertyAssertion>\n  <DataProperty IRI=\"#firstName\"/>\n  <NamedIndividual IRI=\"##{full_name}\"/>\n  <Literal datatypeIRI=\"&xsd;string\">#{first}</Literal>\n</DataPropertyAssertion>\n\n"
   return full_name
@@ -38,7 +39,7 @@ def print_owl actor, movie
   full_name = print_actor actor
   movie = movie.rpartition(' ')[0]
   movie.gsub!(" ", "_")
-  puts "<ObjectPropertyAssertion>\n  <ObjectProperty IRI=\"#acted_in\"/>\n  <NamedIndividual IRI=\"##{full_name}\"/>\n  <NamedIndividual IRI=\"##{movie}\"/>\n</ObjectPropertyAssertion>\n\n"
+  puts "<ObjectPropertyAssertion>\n  <ObjectProperty IRI=\"#directed\"/>\n  <NamedIndividual IRI=\"##{full_name}\"/>\n  <NamedIndividual IRI=\"##{movie}\"/>\n</ObjectPropertyAssertion>\n\n"
 end
 
 
@@ -61,7 +62,7 @@ if !File.exist?('movies.owl')
   end
 end
                  #actresses
-file = File.open('actresses.list', 'r')
+file = File.open('directors.list', 'r')
 current_actor = nil
 movie = nil
 file.each do |line|
