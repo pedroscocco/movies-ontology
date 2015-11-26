@@ -3,7 +3,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Wody_Alen"/>
 </ClassAssertion>
 
@@ -528,7 +528,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#David_Atkins"/>
 </ClassAssertion>
 
@@ -561,7 +561,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#John_Badham"/>
 </ClassAssertion>
 
@@ -594,7 +594,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Juanma_Bajo_Uloa"/>
 </ClassAssertion>
 
@@ -627,7 +627,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Mike_Barker"/>
 </ClassAssertion>
 
@@ -660,7 +660,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Michael_Bay"/>
 </ClassAssertion>
 
@@ -693,7 +693,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Shari_Springer_Berman"/>
 </ClassAssertion>
 
@@ -726,7 +726,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Luc_Beson"/>
 </ClassAssertion>
 
@@ -759,7 +759,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Robert_Bierman"/>
 </ClassAssertion>
 
@@ -792,7 +792,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#James_Bobin"/>
 </ClassAssertion>
 
@@ -825,7 +825,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#George_Bowers"/>
 </ClassAssertion>
 
@@ -858,7 +858,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Lesley_Branagan"/>
 </ClassAssertion>
 
@@ -891,7 +891,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Tim_Burton"/>
 </ClassAssertion>
 
@@ -1092,7 +1092,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Hans_Canosa"/>
 </ClassAssertion>
 
@@ -1125,7 +1125,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Liliana_Cavani"/>
 </ClassAssertion>
 
@@ -1158,7 +1158,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Jef_Chadwick"/>
 </ClassAssertion>
 
@@ -1191,7 +1191,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Jeremiah_S._Chechik"/>
 </ClassAssertion>
 
@@ -1224,7 +1224,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Ethan_Coen"/>
 </ClassAssertion>
 
@@ -1281,7 +1281,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Joel_Coen"/>
 </ClassAssertion>
 
@@ -1338,7 +1338,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Sarah_Coper"/>
 </ClassAssertion>
 
@@ -1371,7 +1371,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Francis_Ford_Copola"/>
 </ClassAssertion>
 
@@ -1404,7 +1404,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Sofia_Copola"/>
 </ClassAssertion>
 
@@ -1437,7 +1437,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Wes_Craven"/>
 </ClassAssertion>
 
@@ -1470,7 +1470,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Cameron_Crowe"/>
 </ClassAssertion>
 
@@ -1503,7 +1503,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Mathew_Culen"/>
 </ClassAssertion>
 
@@ -1536,7 +1536,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#_de_la_Iglesia"/>
 </ClassAssertion>
 
@@ -1569,7 +1569,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Brian_De_Palma"/>
 </ClassAssertion>
 
@@ -1602,7 +1602,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Gaby_Delal"/>
 </ClassAssertion>
 
@@ -1635,7 +1635,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Ted_Deme"/>
 </ClassAssertion>
 
@@ -1668,7 +1668,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Johny_Dep"/>
 </ClassAssertion>
 
@@ -1701,7 +1701,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Denis_Dugan"/>
 </ClassAssertion>
 
@@ -1734,7 +1734,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Martine_Dugowson"/>
 </ClassAssertion>
 
@@ -1767,7 +1767,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Laurence_Dunmore"/>
 </ClassAssertion>
 
@@ -1800,7 +1800,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Elory_Elkayem"/>
 </ClassAssertion>
 
@@ -1833,7 +1833,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Jon_Favreau"/>
 </ClassAssertion>
 
@@ -1890,7 +1890,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Pepita_Ferari"/>
 </ClassAssertion>
 
@@ -1923,7 +1923,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#David_Fincher"/>
 </ClassAssertion>
 
@@ -1956,7 +1956,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Erik_Fleming"/>
 </ClassAssertion>
 
@@ -1989,7 +1989,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Milos_Forman"/>
 </ClassAssertion>
 
@@ -2022,7 +2022,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Marc_Forster"/>
 </ClassAssertion>
 
@@ -2055,7 +2055,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Shaine_Gabel"/>
 </ClassAssertion>
 
@@ -2088,7 +2088,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Sarah_Gavron"/>
 </ClassAssertion>
 
@@ -2121,7 +2121,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Sacha_Gervasi"/>
 </ClassAssertion>
 
@@ -2154,7 +2154,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Coky_Giedroyc"/>
 </ClassAssertion>
 
@@ -2187,7 +2187,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Tery_Giliam"/>
 </ClassAssertion>
 
@@ -2220,7 +2220,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Jonathan_Glazer"/>
 </ClassAssertion>
 
@@ -2253,7 +2253,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Arne_Glimcher"/>
 </ClassAssertion>
 
@@ -2286,7 +2286,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Alejandro_González_Iñáritu"/>
 </ClassAssertion>
 
@@ -2319,7 +2319,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Joseph_Gordon-Levit"/>
 </ClassAssertion>
 
@@ -2352,7 +2352,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Raja_Gosnel"/>
 </ClassAssertion>
 
@@ -2385,7 +2385,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Linklater_Grengras"/>
 </ClassAssertion>
 
@@ -2418,7 +2418,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Megan_Grifiths"/>
 </ClassAssertion>
 
@@ -2451,7 +2451,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#_Gárdos"/>
 </ClassAssertion>
 
@@ -2484,7 +2484,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Manuel_Gómez_Pereira"/>
 </ClassAssertion>
 
@@ -2529,7 +2529,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Lase_Halström"/>
 </ClassAssertion>
 
@@ -2574,7 +2574,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Florian_Henckel_von_Donersmarck"/>
 </ClassAssertion>
 
@@ -2607,7 +2607,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Stephen_Hilenburg"/>
 </ClassAssertion>
 
@@ -2640,7 +2640,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Tom_Hoper"/>
 </ClassAssertion>
 
@@ -2673,7 +2673,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Adriene_Hughes"/>
 </ClassAssertion>
 
@@ -2706,7 +2706,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Alen_Hughes"/>
 </ClassAssertion>
 
@@ -2739,7 +2739,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#James_Ivory"/>
 </ClassAssertion>
 
@@ -2784,7 +2784,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Jim_Jarmusch"/>
 </ClassAssertion>
 
@@ -2817,7 +2817,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Garth_Jenings"/>
 </ClassAssertion>
 
@@ -2850,7 +2850,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Jean_Jeunet"/>
 </ClassAssertion>
 
@@ -2883,7 +2883,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Spike_Jonze"/>
 </ClassAssertion>
 
@@ -2916,7 +2916,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Mika_Kaurismäki"/>
 </ClassAssertion>
 
@@ -2949,7 +2949,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Randal_Kleiser"/>
 </ClassAssertion>
 
@@ -2982,7 +2982,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#David_Koep"/>
 </ClassAssertion>
 
@@ -3027,7 +3027,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Lisa_Krueger"/>
 </ClassAssertion>
 
@@ -3060,7 +3060,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Emir_Kusturica"/>
 </ClassAssertion>
 
@@ -3093,7 +3093,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Ken_Kwapis"/>
 </ClassAssertion>
 
@@ -3126,7 +3126,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Jeremy_Leven"/>
 </ClassAssertion>
 
@@ -3159,7 +3159,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Phil_Lord"/>
 </ClassAssertion>
 
@@ -3192,7 +3192,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Bigas_Luna"/>
 </ClassAssertion>
 
@@ -3225,7 +3225,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Terence_Malick"/>
 </ClassAssertion>
 
@@ -3258,7 +3258,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#John_Malkovich"/>
 </ClassAssertion>
 
@@ -3291,7 +3291,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Michael_Man"/>
 </ClassAssertion>
 
@@ -3336,7 +3336,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Rob_Marshal"/>
 </ClassAssertion>
 
@@ -3381,7 +3381,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#McG"/>
 </ClassAssertion>
 
@@ -3408,7 +3408,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Sam_Mendes"/>
 </ClassAssertion>
 
@@ -3441,7 +3441,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Frank_Miler"/>
 </ClassAssertion>
 
@@ -3474,7 +3474,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Piere_Morel"/>
 </ClassAssertion>
 
@@ -3507,7 +3507,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Ryan_Murphy"/>
 </ClassAssertion>
 
@@ -3540,7 +3540,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Mike_Newel"/>
 </ClassAssertion>
 
@@ -3597,7 +3597,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Christopher_Nolan"/>
 </ClassAssertion>
 
@@ -3630,7 +3630,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Trevor_Nun"/>
 </ClassAssertion>
 
@@ -3675,7 +3675,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Daniel_Nyiri"/>
 </ClassAssertion>
 
@@ -3708,7 +3708,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Thadeus_O'Sulivan"/>
 </ClassAssertion>
 
@@ -3741,7 +3741,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Mark_Osborne"/>
 </ClassAssertion>
 
@@ -3774,7 +3774,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Sean_Pen"/>
 </ClassAssertion>
 
@@ -3807,7 +3807,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Waly_Pfister"/>
 </ClassAssertion>
 
@@ -3840,7 +3840,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Roman_Polanski"/>
 </ClassAssertion>
 
@@ -3873,7 +3873,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Saly_Poter"/>
 </ClassAssertion>
 
@@ -3906,7 +3906,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Robert_Pulcini"/>
 </ClassAssertion>
 
@@ -3939,7 +3939,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Mort_Ransen"/>
 </ClassAssertion>
 
@@ -3972,7 +3972,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Rand_Ravich"/>
 </ClassAssertion>
 
@@ -4005,7 +4005,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Robert_Redford"/>
 </ClassAssertion>
 
@@ -4038,7 +4038,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Rob_Reiner"/>
 </ClassAssertion>
 
@@ -4071,7 +4071,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Brian_Robins"/>
 </ClassAssertion>
 
@@ -4104,7 +4104,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Bruce_Robinson"/>
 </ClassAssertion>
 
@@ -4137,7 +4137,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Robert_Rodriguez"/>
 </ClassAssertion>
 
@@ -4170,7 +4170,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Anthony_Ruso"/>
 </ClassAssertion>
 
@@ -4215,7 +4215,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Joe_Ruso"/>
 </ClassAssertion>
 
@@ -4260,7 +4260,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Ole_Røneberg"/>
 </ClassAssertion>
 
@@ -4293,7 +4293,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Erik_Sandberg"/>
 </ClassAssertion>
 
@@ -4326,7 +4326,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Eric_Schaefer"/>
 </ClassAssertion>
 
@@ -4371,7 +4371,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Julian_Schnabel"/>
 </ClassAssertion>
 
@@ -4404,7 +4404,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Martin_Scorsese"/>
 </ClassAssertion>
 
@@ -4437,7 +4437,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Ridley_Scot"/>
 </ClassAssertion>
 
@@ -4470,7 +4470,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Santiago_Segura"/>
 </ClassAssertion>
 
@@ -4503,7 +4503,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Brad_Silberling"/>
 </ClassAssertion>
 
@@ -4536,7 +4536,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Kery_An_Smith"/>
 </ClassAssertion>
 
@@ -4581,7 +4581,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Iain_Softley"/>
 </ClassAssertion>
 
@@ -4614,7 +4614,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Oliver_Stone"/>
 </ClassAssertion>
 
@@ -4647,7 +4647,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Shawn_Sturnick"/>
 </ClassAssertion>
 
@@ -4680,7 +4680,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Gonzalo_Suárez"/>
 </ClassAssertion>
 
@@ -4713,7 +4713,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Rachel_Talalay"/>
 </ClassAssertion>
 
@@ -4746,7 +4746,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Deane_Taylor"/>
 </ClassAssertion>
 
@@ -4779,7 +4779,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Gore_Verbinski"/>
 </ClassAssertion>
 
@@ -4860,7 +4860,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#John_Waters"/>
 </ClassAssertion>
 
@@ -4893,7 +4893,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Peter_Weber"/>
 </ClassAssertion>
 
@@ -4926,7 +4926,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Paul_Weiland"/>
 </ClassAssertion>
 
@@ -4959,7 +4959,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Paul_Weitz"/>
 </ClassAssertion>
 
@@ -4992,7 +4992,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Jos_Whedon"/>
 </ClassAssertion>
 
@@ -5037,7 +5037,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Clif_Yates"/>
 </ClassAssertion>
 
@@ -5106,7 +5106,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Franco_Zefireli"/>
 </ClassAssertion>
 
@@ -5139,7 +5139,7 @@
 </Declaration>
 
 <ClassAssertion>
-    <Class IRI="#Actor"/>
+    <Class IRI="#Director"/>
     <NamedIndividual IRI="#Tery_Zwigof"/>
 </ClassAssertion>
 
